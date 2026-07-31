@@ -9,12 +9,10 @@ build/
 node_modules/
 frontend/dist/
 
-# Interview prep (not for submission)
-INTERVIEW_PREP.md
-SYSTEM_FLOW.md
 .claude/
-
-# Assignment materials (not for submission)
 Assignment Outline/
 API/
 .idea/
+INTERVIEW_PREP.md
+SYSTEM_FLOW.md
+ARCHITECTURE.md
