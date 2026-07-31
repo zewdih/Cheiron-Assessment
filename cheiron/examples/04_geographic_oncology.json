@@ -1,0 +1,703 @@
+{
+  "request": {
+    "query": "Which countries have the most recruiting oncology trials?",
+    "condition": "cancer"
+  },
+  "response": {
+    "visualization": {
+      "type": "bar_chart",
+      "title": "Top Countries by Recruiting Oncology Trials (1000 Total)",
+      "encoding": {
+        "x": {
+          "field": "country",
+          "type": "nominal",
+          "title": "Country"
+        },
+        "y": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Number of Trials"
+        },
+        "color": null,
+        "size": null,
+        "nodes": null,
+        "edges": null
+      },
+      "data": [
+        {
+          "values": {
+            "country": "United States",
+            "trial_count": 392
+          },
+          "citations": [
+            {
+              "nct_id": "NCT05036226",
+              "url": "https://clinicaltrials.gov/study/NCT05036226",
+              "excerpt": "COAST Therapy in Advanced Solid Tumors and Prostate Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07227168",
+              "url": "https://clinicaltrials.gov/study/NCT07227168",
+              "excerpt": "A Study of STRO-004 in Adults With Refractory/Recurrent Metastatic Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06163391",
+              "url": "https://clinicaltrials.gov/study/NCT06163391",
+              "excerpt": "A Study to Assess Safety and Efficacy of SOT201 in Patients With Advanced/Metastatic Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06637423",
+              "url": "https://clinicaltrials.gov/study/NCT06637423",
+              "excerpt": "A Clinical Study of Sacituzumab Tirumotecan (MK-2870) in Patients With Bladder Cancer (MK-2870-027) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05411523",
+              "url": "https://clinicaltrials.gov/study/NCT05411523",
+              "excerpt": "Assessing Effect of Spinal Cord Stimulation on Pain and Quality of Life With Chemotherapy-Induced Peripheral Neuropathy | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "China",
+            "trial_count": 297
+          },
+          "citations": [
+            {
+              "nct_id": "NCT07532018",
+              "url": "https://clinicaltrials.gov/study/NCT07532018",
+              "excerpt": "DXP-106 in Solid Tumor Patients. | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06455124",
+              "url": "https://clinicaltrials.gov/study/NCT06455124",
+              "excerpt": "Short-course Radiotherapy Combined With CapeOx and PD-1 Inhibitor After Local Excision for High-risk Early Rectal Cancer (TORCH-LE) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07400523",
+              "url": "https://clinicaltrials.gov/study/NCT07400523",
+              "excerpt": "Ribociclib in Hormone Receptor-positive, HER2-negative Early Breast Cancer With Residual Disease After Neoadjuvant Chemotherapy | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06289062",
+              "url": "https://clinicaltrials.gov/study/NCT06289062",
+              "excerpt": "Neoadjuvant Chemotherapy Plus Camrelizumab for FIGO Stage IB1 Cervical Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT04974346",
+              "url": "https://clinicaltrials.gov/study/NCT04974346",
+              "excerpt": "Para-aortic Prophylactic Irradiation for Locally Advanced Cervical Cancer | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "France",
+            "trial_count": 95
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06163391",
+              "url": "https://clinicaltrials.gov/study/NCT06163391",
+              "excerpt": "A Study to Assess Safety and Efficacy of SOT201 in Patients With Advanced/Metastatic Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06637423",
+              "url": "https://clinicaltrials.gov/study/NCT06637423",
+              "excerpt": "A Clinical Study of Sacituzumab Tirumotecan (MK-2870) in Patients With Bladder Cancer (MK-2870-027) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05618990",
+              "url": "https://clinicaltrials.gov/study/NCT05618990",
+              "excerpt": "OPTIMIZATION of ADVANCED MR SEQUENCES | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07007559",
+              "url": "https://clinicaltrials.gov/study/NCT07007559",
+              "excerpt": "ASPEN-09-03: A Study of Evorpacept in Combination With Trastuzumab and Chemotherapy in Metastatic HER2-Positive Breast Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT04285125",
+              "url": "https://clinicaltrials.gov/study/NCT04285125",
+              "excerpt": "High Resolution Imaging for Analysis of MVNT | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Italy",
+            "trial_count": 75
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06685055",
+              "url": "https://clinicaltrials.gov/study/NCT06685055",
+              "excerpt": "Markers of Favorable Response to FcRn Inhibitors(INFORM) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05845450",
+              "url": "https://clinicaltrials.gov/study/NCT05845450",
+              "excerpt": "Pre-operative Targeted Treatments in Molecularly Selected Resectable Colorectal Cancer (UNICORN) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06764459",
+              "url": "https://clinicaltrials.gov/study/NCT06764459",
+              "excerpt": "Molecular Characterization of Patients With Acute Myeloid Leukemia and the Impact of Clonal Evolution in the Response to Therapeutic Treatments | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07007559",
+              "url": "https://clinicaltrials.gov/study/NCT07007559",
+              "excerpt": "ASPEN-09-03: A Study of Evorpacept in Combination With Trastuzumab and Chemotherapy in Metastatic HER2-Positive Breast Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06723990",
+              "url": "https://clinicaltrials.gov/study/NCT06723990",
+              "excerpt": "Evaluation of HER2DX Assay on Treatment Decisions in Patients With Early Stage HER2+ Breast Cancer: the HER2BREASTDX | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Spain",
+            "trial_count": 60
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06163391",
+              "url": "https://clinicaltrials.gov/study/NCT06163391",
+              "excerpt": "A Study to Assess Safety and Efficacy of SOT201 in Patients With Advanced/Metastatic Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07467824",
+              "url": "https://clinicaltrials.gov/study/NCT07467824",
+              "excerpt": "Impact of Prehabilitation and Comprehensive Follow-up in Women With Breast Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06637423",
+              "url": "https://clinicaltrials.gov/study/NCT06637423",
+              "excerpt": "A Clinical Study of Sacituzumab Tirumotecan (MK-2870) in Patients With Bladder Cancer (MK-2870-027) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07007559",
+              "url": "https://clinicaltrials.gov/study/NCT07007559",
+              "excerpt": "ASPEN-09-03: A Study of Evorpacept in Combination With Trastuzumab and Chemotherapy in Metastatic HER2-Positive Breast Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06137118",
+              "url": "https://clinicaltrials.gov/study/NCT06137118",
+              "excerpt": "AZD0486 as Monotherapy in B-cell Acute Lymphoblastic Leukaemia | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Canada",
+            "trial_count": 45
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06637423",
+              "url": "https://clinicaltrials.gov/study/NCT06637423",
+              "excerpt": "A Clinical Study of Sacituzumab Tirumotecan (MK-2870) in Patients With Bladder Cancer (MK-2870-027) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT04151342",
+              "url": "https://clinicaltrials.gov/study/NCT04151342",
+              "excerpt": "CAnadian CAncers With Rare Molecular Alterations (CARMA) - Basket Real-world Observational Study (BROS) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07007559",
+              "url": "https://clinicaltrials.gov/study/NCT07007559",
+              "excerpt": "ASPEN-09-03: A Study of Evorpacept in Combination With Trastuzumab and Chemotherapy in Metastatic HER2-Positive Breast Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06137118",
+              "url": "https://clinicaltrials.gov/study/NCT06137118",
+              "excerpt": "AZD0486 as Monotherapy in B-cell Acute Lymphoblastic Leukaemia | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT04421820",
+              "url": "https://clinicaltrials.gov/study/NCT04421820",
+              "excerpt": "BOLD-100 in Combination With FOLFOX for the Treatment of Advanced Solid Tumours | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "United Kingdom",
+            "trial_count": 43
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06637423",
+              "url": "https://clinicaltrials.gov/study/NCT06637423",
+              "excerpt": "A Clinical Study of Sacituzumab Tirumotecan (MK-2870) in Patients With Bladder Cancer (MK-2870-027) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07007559",
+              "url": "https://clinicaltrials.gov/study/NCT07007559",
+              "excerpt": "ASPEN-09-03: A Study of Evorpacept in Combination With Trastuzumab and Chemotherapy in Metastatic HER2-Positive Breast Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05177562",
+              "url": "https://clinicaltrials.gov/study/NCT05177562",
+              "excerpt": "Reproductive Endocrinology Oxford Study (RepOx) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06137118",
+              "url": "https://clinicaltrials.gov/study/NCT06137118",
+              "excerpt": "AZD0486 as Monotherapy in B-cell Acute Lymphoblastic Leukaemia | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT04795882",
+              "url": "https://clinicaltrials.gov/study/NCT04795882",
+              "excerpt": "A New Study Evaluating the Activity of Modular CAR T for mYeloma | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Australia",
+            "trial_count": 42
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06137118",
+              "url": "https://clinicaltrials.gov/study/NCT06137118",
+              "excerpt": "AZD0486 as Monotherapy in B-cell Acute Lymphoblastic Leukaemia | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06515990",
+              "url": "https://clinicaltrials.gov/study/NCT06515990",
+              "excerpt": "A Study of DM005 in Patients With Advanced Solid Tumors | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07016490",
+              "url": "https://clinicaltrials.gov/study/NCT07016490",
+              "excerpt": "A Phase 1 Study of SSGJ-709 in Patients With Advanced Malignant Tumors | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07541391",
+              "url": "https://clinicaltrials.gov/study/NCT07541391",
+              "excerpt": "Autologous Chimeric Antigen Receptor (CAR) T-cells Targeting the Kappa Myeloma Antigen (KMA) in Kappa Restricted Multiple Myeloma Patients With Relapsed/Refractory Disease | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07206056",
+              "url": "https://clinicaltrials.gov/study/NCT07206056",
+              "excerpt": "An Open-label Dose Escalation and Expansion, Followed by a Phase II Study of Tulmimetostat (DZR123) and JSB462 (Luxdegalutamide) in Patients With Progressive Metastatic Castrate Resistant Prostate Cancer (mCRPC) (TulmiSTAR-01) | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "South Korea",
+            "trial_count": 41
+          },
+          "citations": [
+            {
+              "nct_id": "NCT05256225",
+              "url": "https://clinicaltrials.gov/study/NCT05256225",
+              "excerpt": "Testing the Addition of Herceptin Hylecta or Phesgo to the Usual Chemotherapy for HER2 Positive Endometrial Serous Carcinoma or Carcinosarcoma | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07007559",
+              "url": "https://clinicaltrials.gov/study/NCT07007559",
+              "excerpt": "ASPEN-09-03: A Study of Evorpacept in Combination With Trastuzumab and Chemotherapy in Metastatic HER2-Positive Breast Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05784688",
+              "url": "https://clinicaltrials.gov/study/NCT05784688",
+              "excerpt": "Study of TU2218 in Combination With KEYTRUDA\u00ae(Pembrolizumab) in Patients With Advanced Solid Tumors | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07670468",
+              "url": "https://clinicaltrials.gov/study/NCT07670468",
+              "excerpt": "Evaluation of the Safety and Efficacy of LB-DTK-MV in Patients Diagnosed With Antiviral-Resistant CMV, BKV, or EBV Infection or Associated Diseases Following Anticancer Therapy or Allogeneic Hematopoietic Stem Cell Transplantation. | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06137118",
+              "url": "https://clinicaltrials.gov/study/NCT06137118",
+              "excerpt": "AZD0486 as Monotherapy in B-cell Acute Lymphoblastic Leukaemia | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Germany",
+            "trial_count": 40
+          },
+          "citations": [
+            {
+              "nct_id": "NCT05397262",
+              "url": "https://clinicaltrials.gov/study/NCT05397262",
+              "excerpt": "Organ-preservative Therapy of Bladder Cancer With Radiotherapy or Radiochemotherapy Combined With Hyperthermia | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07510724",
+              "url": "https://clinicaltrials.gov/study/NCT07510724",
+              "excerpt": "Real-World Data on the Treatment of Lung Cancer Patients With the Immune-Checkpoint Inhibitor Tislelizumab | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06137118",
+              "url": "https://clinicaltrials.gov/study/NCT06137118",
+              "excerpt": "AZD0486 as Monotherapy in B-cell Acute Lymphoblastic Leukaemia | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT04421820",
+              "url": "https://clinicaltrials.gov/study/NCT04421820",
+              "excerpt": "BOLD-100 in Combination With FOLFOX for the Treatment of Advanced Solid Tumours | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT03676504",
+              "url": "https://clinicaltrials.gov/study/NCT03676504",
+              "excerpt": "Treatment of Patients With Relapsed or Refractory CD19+ Lymphoid Disease With T Cells Expressing a Third-generation CAR | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Taiwan",
+            "trial_count": 30
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06137118",
+              "url": "https://clinicaltrials.gov/study/NCT06137118",
+              "excerpt": "AZD0486 as Monotherapy in B-cell Acute Lymphoblastic Leukaemia | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT04524871",
+              "url": "https://clinicaltrials.gov/study/NCT04524871",
+              "excerpt": "A Study Evaluating the Efficacy and Safety of Multiple Immunotherapy-Based Treatment Combinations in Patients With Advanced Liver Cancers (Morpheus-Liver) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05687682",
+              "url": "https://clinicaltrials.gov/study/NCT05687682",
+              "excerpt": "Safety of AM-928 Infusion in Advanced Solid Tumors | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06998823",
+              "url": "https://clinicaltrials.gov/study/NCT06998823",
+              "excerpt": "The Effect of Survival, Response and Microbiota Change in Different Therapy Under Probiotic Supplement | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07562100",
+              "url": "https://clinicaltrials.gov/study/NCT07562100",
+              "excerpt": "Develop and Evaluate An Artificial Intelligence Assisted Prehabilitation Program for Returning to Work and Cost-effectiveness Analysis in Patients With Oral Cancer | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Belgium",
+            "trial_count": 29
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06163391",
+              "url": "https://clinicaltrials.gov/study/NCT06163391",
+              "excerpt": "A Study to Assess Safety and Efficacy of SOT201 in Patients With Advanced/Metastatic Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07136844",
+              "url": "https://clinicaltrials.gov/study/NCT07136844",
+              "excerpt": "Gait Analysis Parameter and Upper Limb Evaluation in Adult Patients With Neurological or Metabolic Pathology | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06824467",
+              "url": "https://clinicaltrials.gov/study/NCT06824467",
+              "excerpt": "A Study to Evaluate the Efficacy and Safety of Sacituzumab Tirumotecan (MK-2870) Maintenance Treatment Versus Standard of Care in Participants With Platinum-sensitive Recurrent Ovarian Cancer (MK-2870-022/TroFuse-022/ENGOT-ov84/GOG-3103) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06709872",
+              "url": "https://clinicaltrials.gov/study/NCT06709872",
+              "excerpt": "A Prospective Multicenter Diagnostic Biomarker Study to Discriminate Borderline From Stage I Invasive Ovarian Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT03779009",
+              "url": "https://clinicaltrials.gov/study/NCT03779009",
+              "excerpt": "Minimally INvasive Colon Cancer Surgery Through IMmunomics and Optical Mapping of the Sentinel Lymph Node. | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Netherlands",
+            "trial_count": 24
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06637423",
+              "url": "https://clinicaltrials.gov/study/NCT06637423",
+              "excerpt": "A Clinical Study of Sacituzumab Tirumotecan (MK-2870) in Patients With Bladder Cancer (MK-2870-027) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05641428",
+              "url": "https://clinicaltrials.gov/study/NCT05641428",
+              "excerpt": "Comparison of Point-of-care Produced CAR T-cell with Commercial CAR T-cells in Patients with R/R LBCL | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT04861194",
+              "url": "https://clinicaltrials.gov/study/NCT04861194",
+              "excerpt": "EREctile Function Preservation for Prostate Cancer Radiation Therapy (ERECT) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06335069",
+              "url": "https://clinicaltrials.gov/study/NCT06335069",
+              "excerpt": "18F-FDG Versus 68Ga-FAPI-46 as PET Tracer in ER-positive Breast Cancer. | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05779631",
+              "url": "https://clinicaltrials.gov/study/NCT05779631",
+              "excerpt": "Multi-parametric MRI in Patients Suspected for Muscle Invasive Bladder Cancer: a New Local Staging Paradigm | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Japan",
+            "trial_count": 24
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06137118",
+              "url": "https://clinicaltrials.gov/study/NCT06137118",
+              "excerpt": "AZD0486 as Monotherapy in B-cell Acute Lymphoblastic Leukaemia | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07699939",
+              "url": "https://clinicaltrials.gov/study/NCT07699939",
+              "excerpt": "Perioperative HLX10 (Serplulimab) With S-1+Oxaliplatin (SOX) in Locally Advanced and PD-L1-Positive Gastric or Esophagogastric Junction Adenocarcinoma | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06824467",
+              "url": "https://clinicaltrials.gov/study/NCT06824467",
+              "excerpt": "A Study to Evaluate the Efficacy and Safety of Sacituzumab Tirumotecan (MK-2870) Maintenance Treatment Versus Standard of Care in Participants With Platinum-sensitive Recurrent Ovarian Cancer (MK-2870-022/TroFuse-022/ENGOT-ov84/GOG-3103) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05451901",
+              "url": "https://clinicaltrials.gov/study/NCT05451901",
+              "excerpt": "Immediate Necrosectomy vs. Step-up Approach for Walled-off Necrosis | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06161025",
+              "url": "https://clinicaltrials.gov/study/NCT06161025",
+              "excerpt": "A Study of Raludotatug Deruxtecan (R-DXd) in Subjects With Platinum-resistant, High-grade Ovarian, Primary Peritoneal, or Fallopian Tube Cancer | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Sweden",
+            "trial_count": 23
+          },
+          "citations": [
+            {
+              "nct_id": "NCT07498959",
+              "url": "https://clinicaltrials.gov/study/NCT07498959",
+              "excerpt": "Primary RPLND Versus Systemic Chemotherapy in Good-prognosis Metastatic Testicular Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05172310",
+              "url": "https://clinicaltrials.gov/study/NCT05172310",
+              "excerpt": "PET Imaging of Solid Tumors by a Novel Tracer, 68Ga-FAPI | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06883604",
+              "url": "https://clinicaltrials.gov/study/NCT06883604",
+              "excerpt": "Clinical Investigation of Proton Treatment in Hodgkin Lymphoma Patients - PRO-Hodgkin | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05961761",
+              "url": "https://clinicaltrials.gov/study/NCT05961761",
+              "excerpt": "Propranolol and Pembrolizumab in Advanced Soft Tissue Sarcoma Patients | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06214988",
+              "url": "https://clinicaltrials.gov/study/NCT06214988",
+              "excerpt": "Selective Defunctioning Stoma in Low Anterior Resection for Rectal Cancer | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Switzerland",
+            "trial_count": 22
+          },
+          "citations": [
+            {
+              "nct_id": "NCT07546045",
+              "url": "https://clinicaltrials.gov/study/NCT07546045",
+              "excerpt": "Personalized Rehabilitation With Organ-Preserving Robotic RESA in Head and Neck Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07284628",
+              "url": "https://clinicaltrials.gov/study/NCT07284628",
+              "excerpt": "Vortioxetine for Newly Diagnosed Glioblastoma | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06855784",
+              "url": "https://clinicaltrials.gov/study/NCT06855784",
+              "excerpt": "Time-Restricted Eating in Menopause and HOrmone-sensitive Breast Cancers (TREMHO) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT04289935",
+              "url": "https://clinicaltrials.gov/study/NCT04289935",
+              "excerpt": "Intelligent Vacuum Assisted Biopsy Immediately Before Surgery As an Intra- or Pre-Operative Surrogate for Patient Response to Neoadjuvant Chemotherapy for Breast Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05112016",
+              "url": "https://clinicaltrials.gov/study/NCT05112016",
+              "excerpt": "Long-term Cohort Study of Mesorectal Excision for Rectal Cancer | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Turkey (T\u00fcrkiye)",
+            "trial_count": 18
+          },
+          "citations": [
+            {
+              "nct_id": "NCT07231913",
+              "url": "https://clinicaltrials.gov/study/NCT07231913",
+              "excerpt": "Emotional Awareness and Communication Training Effectiveness in Oncology Nurses | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07547774",
+              "url": "https://clinicaltrials.gov/study/NCT07547774",
+              "excerpt": "Preoperative Sleep Quality and Postoperative Outcomes in Breast Surgery | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07609680",
+              "url": "https://clinicaltrials.gov/study/NCT07609680",
+              "excerpt": "MAP- Versus Cardiac Index-Guided Hemodynamic Management in Colorectal Surgery | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07007468",
+              "url": "https://clinicaltrials.gov/study/NCT07007468",
+              "excerpt": "Prevention of Constipation in Cancer Patients | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07190300",
+              "url": "https://clinicaltrials.gov/study/NCT07190300",
+              "excerpt": "TulmiSTAR-02: A Phase I/II Open-label Study of Tulmimetostat in Combination With Darolutamide vs. Darolutamide, and Tulmimetostat With Abiraterone in Patients With Metastatic Hormone-sensitive Prostate Cancer (mHSPC) | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Brazil",
+            "trial_count": 18
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06137118",
+              "url": "https://clinicaltrials.gov/study/NCT06137118",
+              "excerpt": "AZD0486 as Monotherapy in B-cell Acute Lymphoblastic Leukaemia | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT04540692",
+              "url": "https://clinicaltrials.gov/study/NCT04540692",
+              "excerpt": "Evaluation of Sequencing of Anthracyclines and Taxanes for Locally Advanced HER2-negative Breast Cancer | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06525181",
+              "url": "https://clinicaltrials.gov/study/NCT06525181",
+              "excerpt": "AI as an Aid for Weekly Symptom Intake in Radiotherapy | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06824467",
+              "url": "https://clinicaltrials.gov/study/NCT06824467",
+              "excerpt": "A Study to Evaluate the Efficacy and Safety of Sacituzumab Tirumotecan (MK-2870) Maintenance Treatment Versus Standard of Care in Participants With Platinum-sensitive Recurrent Ovarian Cancer (MK-2870-022/TroFuse-022/ENGOT-ov84/GOG-3103) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07190300",
+              "url": "https://clinicaltrials.gov/study/NCT07190300",
+              "excerpt": "TulmiSTAR-02: A Phase I/II Open-label Study of Tulmimetostat in Combination With Darolutamide vs. Darolutamide, and Tulmimetostat With Abiraterone in Patients With Metastatic Hormone-sensitive Prostate Cancer (mHSPC) | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Denmark",
+            "trial_count": 17
+          },
+          "citations": [
+            {
+              "nct_id": "NCT07263490",
+              "url": "https://clinicaltrials.gov/study/NCT07263490",
+              "excerpt": "PRIOR Study (Pre-eclampsia Risk In Oocyte Recipients) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07206056",
+              "url": "https://clinicaltrials.gov/study/NCT07206056",
+              "excerpt": "An Open-label Dose Escalation and Expansion, Followed by a Phase II Study of Tulmimetostat (DZR123) and JSB462 (Luxdegalutamide) in Patients With Progressive Metastatic Castrate Resistant Prostate Cancer (mCRPC) (TulmiSTAR-01) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT05961761",
+              "url": "https://clinicaltrials.gov/study/NCT05961761",
+              "excerpt": "Propranolol and Pembrolizumab in Advanced Soft Tissue Sarcoma Patients | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06291610",
+              "url": "https://clinicaltrials.gov/study/NCT06291610",
+              "excerpt": "Feasibility Testing a Decision-support Intervention for Clinical Trials | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06824467",
+              "url": "https://clinicaltrials.gov/study/NCT06824467",
+              "excerpt": "A Study to Evaluate the Efficacy and Safety of Sacituzumab Tirumotecan (MK-2870) Maintenance Treatment Versus Standard of Care in Participants With Platinum-sensitive Recurrent Ovarian Cancer (MK-2870-022/TroFuse-022/ENGOT-ov84/GOG-3103) | Status: RECRUITING"
+            }
+          ]
+        },
+        {
+          "values": {
+            "country": "Poland",
+            "trial_count": 17
+          },
+          "citations": [
+            {
+              "nct_id": "NCT05759923",
+              "url": "https://clinicaltrials.gov/study/NCT05759923",
+              "excerpt": "First-in-human Phase I Study to Evaluate Safety, Tolerability and Antineoplastic Activity of OATD-02 in Patients with Selected Advanced And/or Metastatic Solid Tumours | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT07206056",
+              "url": "https://clinicaltrials.gov/study/NCT07206056",
+              "excerpt": "An Open-label Dose Escalation and Expansion, Followed by a Phase II Study of Tulmimetostat (DZR123) and JSB462 (Luxdegalutamide) in Patients With Progressive Metastatic Castrate Resistant Prostate Cancer (mCRPC) (TulmiSTAR-01) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06459024",
+              "url": "https://clinicaltrials.gov/study/NCT06459024",
+              "excerpt": "Master Framework For Relapse or Refractory Acute Myeloid Leukemia | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06824467",
+              "url": "https://clinicaltrials.gov/study/NCT06824467",
+              "excerpt": "A Study to Evaluate the Efficacy and Safety of Sacituzumab Tirumotecan (MK-2870) Maintenance Treatment Versus Standard of Care in Participants With Platinum-sensitive Recurrent Ovarian Cancer (MK-2870-022/TroFuse-022/ENGOT-ov84/GOG-3103) | Status: RECRUITING"
+            },
+            {
+              "nct_id": "NCT06909253",
+              "url": "https://clinicaltrials.gov/study/NCT06909253",
+              "excerpt": "Ravulizumab Treatment Outcomes in Patients With Generalized Myasthenia Gravis | Status: RECRUITING"
+            }
+          ]
+        }
+      ],
+      "network_data": null,
+      "notes": "The United States leads with 392 oncology trials, followed by China with 297, together accounting for nearly 69% of the 1000 total studies. France, Italy, and Spain are the next largest contributors, with 95, 75, and 60 trials respectively, showing a steep drop after the top two countries.",
+      "query_interpretation": "User wants to know which countries have the most actively recruiting oncology (cancer) trials. Using query_cond with 'cancer' and filtering for RECRUITING status, grouping results by country for a geographic distribution."
+    },
+    "meta": {
+      "query": "Which countries have the most recruiting oncology trials?",
+      "filters": {
+        "condition": "cancer"
+      },
+      "total_studies_analyzed": 1000,
+      "source": "clinicaltrials.gov",
+      "api_version": "v2",
+      "timestamp": "2026-07-31T00:46:09.132229+00:00"
+    }
+  }
+}

@@ -1,0 +1,1677 @@
+{
+  "request": {
+    "query": "Show a network of drugs and conditions in breast cancer trials",
+    "condition": "breast cancer"
+  },
+  "response": {
+    "visualization": {
+      "type": "network_graph",
+      "title": "Network of Drugs and Conditions in 1000 Breast Cancer Clinical Trials",
+      "encoding": {
+        "x": null,
+        "y": null,
+        "color": null,
+        "size": null,
+        "nodes": "id",
+        "edges": "source,target"
+      },
+      "data": [],
+      "network_data": {
+        "nodes": [
+          {
+            "id": "Biospecimen Collection",
+            "type": "intervention"
+          },
+          {
+            "id": "Cancer",
+            "type": "condition"
+          },
+          {
+            "id": "docetaxel",
+            "type": "intervention"
+          },
+          {
+            "id": "capecitabine",
+            "type": "intervention"
+          },
+          {
+            "id": "Questionnaire Administration",
+            "type": "intervention"
+          },
+          {
+            "id": "Metastatic Breast Cancer",
+            "type": "condition"
+          },
+          {
+            "id": "Fulvestrant",
+            "type": "intervention"
+          },
+          {
+            "id": "Vinorelbine",
+            "type": "intervention"
+          },
+          {
+            "id": "Capecitabine",
+            "type": "intervention"
+          },
+          {
+            "id": "axillary lymph node dissection",
+            "type": "intervention"
+          },
+          {
+            "id": "Triple Negative Breast Cancer",
+            "type": "condition"
+          },
+          {
+            "id": "trastuzumab",
+            "type": "intervention"
+          },
+          {
+            "id": "Laboratory Biomarker Analysis",
+            "type": "intervention"
+          },
+          {
+            "id": "Invasive Breast Carcinoma",
+            "type": "condition"
+          },
+          {
+            "id": "Exemestane",
+            "type": "intervention"
+          },
+          {
+            "id": "Cancer, Breast",
+            "type": "condition"
+          },
+          {
+            "id": "Chemotherapy-induced Neutropenia",
+            "type": "condition"
+          },
+          {
+            "id": "Trastuzumab",
+            "type": "intervention"
+          },
+          {
+            "id": "Gemcitabine",
+            "type": "intervention"
+          },
+          {
+            "id": "Paclitaxel",
+            "type": "intervention"
+          },
+          {
+            "id": "Palbociclib",
+            "type": "intervention"
+          },
+          {
+            "id": "Docetaxel",
+            "type": "intervention"
+          },
+          {
+            "id": "Lung Cancer",
+            "type": "condition"
+          },
+          {
+            "id": "Cyclophosphamide",
+            "type": "intervention"
+          },
+          {
+            "id": "radiation therapy",
+            "type": "intervention"
+          },
+          {
+            "id": "Questionnaires",
+            "type": "intervention"
+          },
+          {
+            "id": "HER2-positive Breast Cancer",
+            "type": "condition"
+          },
+          {
+            "id": "Breast Cancer",
+            "type": "condition"
+          },
+          {
+            "id": "laboratory biomarker analysis",
+            "type": "intervention"
+          },
+          {
+            "id": "Quality-of-Life Assessment",
+            "type": "intervention"
+          },
+          {
+            "id": "Unknown",
+            "type": "intervention"
+          },
+          {
+            "id": "Yoga",
+            "type": "intervention"
+          },
+          {
+            "id": "rHSA/GCSF",
+            "type": "intervention"
+          },
+          {
+            "id": "placebo",
+            "type": "intervention"
+          },
+          {
+            "id": "Doxorubicin",
+            "type": "intervention"
+          },
+          {
+            "id": "Anastrozole",
+            "type": "intervention"
+          },
+          {
+            "id": "Recurrent Breast Carcinoma",
+            "type": "condition"
+          },
+          {
+            "id": "T-DM1",
+            "type": "intervention"
+          },
+          {
+            "id": "Breast Carcinoma",
+            "type": "condition"
+          },
+          {
+            "id": "Pertuzumab",
+            "type": "intervention"
+          },
+          {
+            "id": "Ribociclib",
+            "type": "intervention"
+          },
+          {
+            "id": "Prostate Cancer",
+            "type": "condition"
+          },
+          {
+            "id": "Breast Neoplasms",
+            "type": "condition"
+          },
+          {
+            "id": "Survey Administration",
+            "type": "intervention"
+          },
+          {
+            "id": "Epirubicin",
+            "type": "intervention"
+          },
+          {
+            "id": "paclitaxel",
+            "type": "intervention"
+          },
+          {
+            "id": "cyclophosphamide",
+            "type": "intervention"
+          },
+          {
+            "id": "Abemaciclib",
+            "type": "intervention"
+          },
+          {
+            "id": "Letrozole",
+            "type": "intervention"
+          },
+          {
+            "id": "Anatomic Stage IV Breast Cancer AJCC v8",
+            "type": "condition"
+          },
+          {
+            "id": "conventional surgery",
+            "type": "intervention"
+          },
+          {
+            "id": "Placebo",
+            "type": "intervention"
+          }
+        ],
+        "edges": [
+          {
+            "source": "Unknown",
+            "target": "Breast Cancer",
+            "weight": 61,
+            "citations": [
+              {
+                "nct_id": "NCT01171417",
+                "url": "https://clinicaltrials.gov/study/NCT01171417",
+                "excerpt": "A Treatment With Fulvestrant and Exemestane in Postmenopausal Patients With Advanced Hormone Receptor-Positive (HR) + Breast Cancer"
+              },
+              {
+                "nct_id": "NCT07498413",
+                "url": "https://clinicaltrials.gov/study/NCT07498413",
+                "excerpt": "Epidemiology and Treatment of HR+/HER2- Breast Cancer in England"
+              },
+              {
+                "nct_id": "NCT03511859",
+                "url": "https://clinicaltrials.gov/study/NCT03511859",
+                "excerpt": "Detecting Circulating Tumor Cells (CTCs) and Cell Free DNA (cfDNA) in Peripheral Blood of Breast Cancer (BC) Patients to Develop the Clinical Application for Early Detection and Diagnostics"
+              },
+              {
+                "nct_id": "NCT03983096",
+                "url": "https://clinicaltrials.gov/study/NCT03983096",
+                "excerpt": "Pegylated Liposomal Doxorubicin or Epirubicin in Neoadjuvant or Adjuvant Chemotherapy for Breast Cancer."
+              },
+              {
+                "nct_id": "NCT07131735",
+                "url": "https://clinicaltrials.gov/study/NCT07131735",
+                "excerpt": "Intraoperative Detection of Breast Cancer by Electrosurgical Gas Analysis and Artificial Intelligence"
+              }
+            ]
+          },
+          {
+            "source": "Cyclophosphamide",
+            "target": "Breast Cancer",
+            "weight": 11,
+            "citations": [
+              {
+                "nct_id": "NCT01421017",
+                "url": "https://clinicaltrials.gov/study/NCT01421017",
+                "excerpt": "Toll-like Receptor (TLR) 7 Agonist, Cyclophosphamide, and Radiotherapy for Breast Cancer With Skin Metastases"
+              },
+              {
+                "nct_id": "NCT00121134",
+                "url": "https://clinicaltrials.gov/study/NCT00121134",
+                "excerpt": "Bevacizumab With or Without Cyclophosphamide and Methotrexate: A Pilot Study in Women With Operable Breast Cancer"
+              },
+              {
+                "nct_id": "NCT03248427",
+                "url": "https://clinicaltrials.gov/study/NCT03248427",
+                "excerpt": "Neadjuvant Multi-agent Chemotherapy or Letrozole Plus Ribociclib in Luminal B/HER2-negative Breast Cancer."
+              },
+              {
+                "nct_id": "NCT00431080",
+                "url": "https://clinicaltrials.gov/study/NCT00431080",
+                "excerpt": "Randomized Phase III Trial Comparing Sequential Administration of FE75C Followed by Docetaxel Versus Paclitaxel as Adjuvant Chemotherapy in Axillary Lymph Node (+) Breast Cancer"
+              },
+              {
+                "nct_id": "NCT01537029",
+                "url": "https://clinicaltrials.gov/study/NCT01537029",
+                "excerpt": "Effect of Weight on the Population Pharmacokinetic Analysis of Doxorubicin and Cyclophosphamide"
+              }
+            ]
+          },
+          {
+            "source": "Trastuzumab",
+            "target": "Breast Cancer",
+            "weight": 10,
+            "citations": [
+              {
+                "nct_id": "NCT00284180",
+                "url": "https://clinicaltrials.gov/study/NCT00284180",
+                "excerpt": "Vinflunine Plus Trastuzumab in Human Epidermal Growth Factor Receptor 2 (HER2neu) Over-Expressing Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT02073487",
+                "url": "https://clinicaltrials.gov/study/NCT02073487",
+                "excerpt": "Neoadjuvant TDM1 With Lapatinib and Abraxane Compared With Trastuzumab Plus Pertuzumab With Paclitaxel"
+              },
+              {
+                "nct_id": "NCT00054587",
+                "url": "https://clinicaltrials.gov/study/NCT00054587",
+                "excerpt": "Combination Chemotherapy With or Without Trastuzumab in Treating Women With Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00912340",
+                "url": "https://clinicaltrials.gov/study/NCT00912340",
+                "excerpt": "Phase II Trial of EVEROLIMUS \u00b1 Trastuzumab in Hormone-Refractory Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT02658461",
+                "url": "https://clinicaltrials.gov/study/NCT02658461",
+                "excerpt": "An Observational Time and Motion Study of Trastuzumab Subcutaneous (SC) and Intravenous (IV) Formulations in Human Epidermal Growth Factor Receptor 2 (HER2)-Positive Early Breast Cancer (EBC)"
+              }
+            ]
+          },
+          {
+            "source": "Capecitabine",
+            "target": "Breast Cancer",
+            "weight": 10,
+            "citations": [
+              {
+                "nct_id": "NCT03775525",
+                "url": "https://clinicaltrials.gov/study/NCT03775525",
+                "excerpt": "Study Evaluating GZ17-6.02 in Patients With Advanced Solid Tumors or in Combination With Capecitabine in Metastatic Hormone Receptor Positive Breast Cancer"
+              },
+              {
+                "nct_id": "NCT01783444",
+                "url": "https://clinicaltrials.gov/study/NCT01783444",
+                "excerpt": "A Phase II Study of Everolimus in Combination With Exemestane Versus Everolimus Alone Versus Capecitabine in Advance Breast Cancer."
+              },
+              {
+                "nct_id": "NCT04849364",
+                "url": "https://clinicaltrials.gov/study/NCT04849364",
+                "excerpt": "Circulating Tumor DNA Enriched, Genomically Directed Post-neoadjuvant Trial for Patients With Residual Triple Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00121134",
+                "url": "https://clinicaltrials.gov/study/NCT00121134",
+                "excerpt": "Bevacizumab With or Without Cyclophosphamide and Methotrexate: A Pilot Study in Women With Operable Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00960544",
+                "url": "https://clinicaltrials.gov/study/NCT00960544",
+                "excerpt": "Correlation of Genomic Variation in Enzymes Responsible for Metabolism of Capecitabine With Drug Metabolism"
+              }
+            ]
+          },
+          {
+            "source": "Paclitaxel",
+            "target": "Breast Cancer",
+            "weight": 10,
+            "citations": [
+              {
+                "nct_id": "NCT03248427",
+                "url": "https://clinicaltrials.gov/study/NCT03248427",
+                "excerpt": "Neadjuvant Multi-agent Chemotherapy or Letrozole Plus Ribociclib in Luminal B/HER2-negative Breast Cancer."
+              },
+              {
+                "nct_id": "NCT00846027",
+                "url": "https://clinicaltrials.gov/study/NCT00846027",
+                "excerpt": "A Study of Avastin (Bevacizumab) in Combination With Taxane-based Chemotherapy as First Line Treatment in Patients With HER-2 Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00431080",
+                "url": "https://clinicaltrials.gov/study/NCT00431080",
+                "excerpt": "Randomized Phase III Trial Comparing Sequential Administration of FE75C Followed by Docetaxel Versus Paclitaxel as Adjuvant Chemotherapy in Axillary Lymph Node (+) Breast Cancer"
+              },
+              {
+                "nct_id": "NCT02073487",
+                "url": "https://clinicaltrials.gov/study/NCT02073487",
+                "excerpt": "Neoadjuvant TDM1 With Lapatinib and Abraxane Compared With Trastuzumab Plus Pertuzumab With Paclitaxel"
+              },
+              {
+                "nct_id": "NCT01023204",
+                "url": "https://clinicaltrials.gov/study/NCT01023204",
+                "excerpt": "Phase II Study of Weekly Paclitaxel (BMS-181339) in Patient With Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "trastuzumab",
+            "target": "Breast Cancer",
+            "weight": 7,
+            "citations": [
+              {
+                "nct_id": "NCT00712140",
+                "url": "https://clinicaltrials.gov/study/NCT00712140",
+                "excerpt": "Trastuzumab in Treating Women With HER2-Positive Early Breast Cancer"
+              },
+              {
+                "nct_id": "NCT01042925",
+                "url": "https://clinicaltrials.gov/study/NCT01042925",
+                "excerpt": "Study of XL147 (SAR245408) in Combination With Trastuzumab or Paclitaxel and Trastuzumab in Subjects With Metastatic Breast Cancer Who Have Progressed on a Previous Trastuzumab-based Regimen"
+              },
+              {
+                "nct_id": "NCT00107393",
+                "url": "https://clinicaltrials.gov/study/NCT00107393",
+                "excerpt": "Trastuzumab and Capecitabine in Treating Women With Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT01772472",
+                "url": "https://clinicaltrials.gov/study/NCT01772472",
+                "excerpt": "A Study of Trastuzumab Emtansine Versus Trastuzumab as Adjuvant Therapy in Patients With HER2-Positive Breast Cancer Who Have Residual Tumor in the Breast or Axillary Lymph Nodes Following Preoperative Therapy (KATHERINE)"
+              },
+              {
+                "nct_id": "NCT00258349",
+                "url": "https://clinicaltrials.gov/study/NCT00258349",
+                "excerpt": "Vorinostat and Trastuzumab in Treating Patients With Metastatic or Locally Recurrent Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Placebo",
+            "target": "Breast Cancer",
+            "weight": 7,
+            "citations": [
+              {
+                "nct_id": "NCT04060862",
+                "url": "https://clinicaltrials.gov/study/NCT04060862",
+                "excerpt": "A Study of Ipatasertib Plus Palbociclib and Fulvestrant Versus Placebo Plus Palbociclib and Fulvestrant in Hormone Receptor Positive and HER2 Negative Locally Advanced Unresectable or Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT02788981",
+                "url": "https://clinicaltrials.gov/study/NCT02788981",
+                "excerpt": "Abraxane\u00ae With or Without Mifepristone for Advanced, Glucocorticoid Receptor-Positive, Triple-Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00506064",
+                "url": "https://clinicaltrials.gov/study/NCT00506064",
+                "excerpt": "Melatonin Postoperative Sleep Study in Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT00238316",
+                "url": "https://clinicaltrials.gov/study/NCT00238316",
+                "excerpt": "Letrozole in Preventing Breast Cancer in Postmenopausal Women Who Are at Increased Risk for Breast Cancer Due to High Breast Density"
+              },
+              {
+                "nct_id": "NCT00005879",
+                "url": "https://clinicaltrials.gov/study/NCT00005879",
+                "excerpt": "LY353381 in Preventing Breast Cancer in Women With Hyperplasia"
+              }
+            ]
+          },
+          {
+            "source": "cyclophosphamide",
+            "target": "Breast Cancer",
+            "weight": 7,
+            "citations": [
+              {
+                "nct_id": "NCT00003972",
+                "url": "https://clinicaltrials.gov/study/NCT00003972",
+                "excerpt": "Combination Chemotherapy and Peripheral Stem Cell Transplantation in Treating Patients With Stage II or Stage IIIA Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00002696",
+                "url": "https://clinicaltrials.gov/study/NCT00002696",
+                "excerpt": "Combination Chemotherapy in Treating Women With Stage III Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00925548",
+                "url": "https://clinicaltrials.gov/study/NCT00925548",
+                "excerpt": "STRIDE - STimulating Immune Response In aDvanced brEast Cancer"
+              },
+              {
+                "nct_id": "NCT00003269",
+                "url": "https://clinicaltrials.gov/study/NCT00003269",
+                "excerpt": "Amifostine Followed by High Dose Chemotherapy in Treating Patients With Hematologic Cancer or Solid Tumors"
+              },
+              {
+                "nct_id": "NCT00124111",
+                "url": "https://clinicaltrials.gov/study/NCT00124111",
+                "excerpt": "A Study of Cyclophosphamide/Methotrexate/5-Fluorouracil (CMF) With Pegfilgrastim in Subjects With Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Docetaxel",
+            "target": "Breast Cancer",
+            "weight": 7,
+            "citations": [
+              {
+                "nct_id": "NCT00431080",
+                "url": "https://clinicaltrials.gov/study/NCT00431080",
+                "excerpt": "Randomized Phase III Trial Comparing Sequential Administration of FE75C Followed by Docetaxel Versus Paclitaxel as Adjuvant Chemotherapy in Axillary Lymph Node (+) Breast Cancer"
+              },
+              {
+                "nct_id": "NCT03349177",
+                "url": "https://clinicaltrials.gov/study/NCT03349177",
+                "excerpt": "Pathological Complete Response Rate in Locally Advanced Breast Cancer With FEC, EC-T, or TC as Neoadjuvant Chemotherapy"
+              },
+              {
+                "nct_id": "NCT01256567",
+                "url": "https://clinicaltrials.gov/study/NCT01256567",
+                "excerpt": "A Study of Ramucirumab (IMC-1121B) in Participants With Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00424606",
+                "url": "https://clinicaltrials.gov/study/NCT00424606",
+                "excerpt": "Epirubicin and Docetaxel Combination (ET) or Epirubicin Followed by Docetaxel (E/T) for Node Negative (N0) High Risk Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT00424606",
+                "url": "https://clinicaltrials.gov/study/NCT00424606",
+                "excerpt": "Epirubicin and Docetaxel Combination (ET) or Epirubicin Followed by Docetaxel (E/T) for Node Negative (N0) High Risk Breast Cancer Patients"
+              }
+            ]
+          },
+          {
+            "source": "Biospecimen Collection",
+            "target": "Invasive Breast Carcinoma",
+            "weight": 7,
+            "citations": [
+              {
+                "nct_id": "NCT03606967",
+                "url": "https://clinicaltrials.gov/study/NCT03606967",
+                "excerpt": "Testing the Addition of an Individualized Vaccine to Durvalumab and Tremelimumab and Chemotherapy in Patients With Metastatic Triple Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT02883062",
+                "url": "https://clinicaltrials.gov/study/NCT02883062",
+                "excerpt": "Carboplatin and Paclitaxel With or Without Atezolizumab Before Surgery in Treating Patients With Newly Diagnosed, Stage II-III Triple-Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT05334069",
+                "url": "https://clinicaltrials.gov/study/NCT05334069",
+                "excerpt": "Collecting Blood Samples From Patients With and Without Cancer to Evaluate Tests for Early Cancer Detection"
+              },
+              {
+                "nct_id": "NCT05023967",
+                "url": "https://clinicaltrials.gov/study/NCT05023967",
+                "excerpt": "Metformin and Nightly Fasting in Women With Early Breast Cancer"
+              },
+              {
+                "nct_id": "NCT04897009",
+                "url": "https://clinicaltrials.gov/study/NCT04897009",
+                "excerpt": "Impact of Neoadjuvant Chemotherapy on the Peripheral Blood Immune Phenotype in Operable Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "paclitaxel",
+            "target": "Breast Cancer",
+            "weight": 6,
+            "citations": [
+              {
+                "nct_id": "NCT00031876",
+                "url": "https://clinicaltrials.gov/study/NCT00031876",
+                "excerpt": "Capecitabine and Paclitaxel in Treating Patients With Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT01042925",
+                "url": "https://clinicaltrials.gov/study/NCT01042925",
+                "excerpt": "Study of XL147 (SAR245408) in Combination With Trastuzumab or Paclitaxel and Trastuzumab in Subjects With Metastatic Breast Cancer Who Have Progressed on a Previous Trastuzumab-based Regimen"
+              },
+              {
+                "nct_id": "NCT01617668",
+                "url": "https://clinicaltrials.gov/study/NCT01617668",
+                "excerpt": "A Randomized, Phase 2, Neoadjuvant Study of Weekly Paclitaxel With or Without LCL161 in Patients With Triple Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00003972",
+                "url": "https://clinicaltrials.gov/study/NCT00003972",
+                "excerpt": "Combination Chemotherapy and Peripheral Stem Cell Transplantation in Treating Patients With Stage II or Stage IIIA Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00004013",
+                "url": "https://clinicaltrials.gov/study/NCT00004013",
+                "excerpt": "Paclitaxel With or Without Trastuzumab Following Peripheral Stem Cell Transplantation in Treating Patients With Refractory Stage IV Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Exemestane",
+            "target": "Breast Cancer",
+            "weight": 6,
+            "citations": [
+              {
+                "nct_id": "NCT03219476",
+                "url": "https://clinicaltrials.gov/study/NCT03219476",
+                "excerpt": "Neoadjuvant Endocrine Therapy in Hormone Receptor-Positive, Human Epidermal Growth Factor Receptor 2 (HER2)-Negative Node-Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT01783444",
+                "url": "https://clinicaltrials.gov/study/NCT01783444",
+                "excerpt": "A Phase II Study of Everolimus in Combination With Exemestane Versus Everolimus Alone Versus Capecitabine in Advance Breast Cancer."
+              },
+              {
+                "nct_id": "NCT05891093",
+                "url": "https://clinicaltrials.gov/study/NCT05891093",
+                "excerpt": "Efficacy and Safety of Fluzoparib Combined With Adjuvant Endocrine Therapy for HR+/HER2- SNF3-subtype Early Breast Cancer (BCTOP-L-A01)"
+              },
+              {
+                "nct_id": "NCT01594398",
+                "url": "https://clinicaltrials.gov/study/NCT01594398",
+                "excerpt": "Study to Assess Food Effect on Pharmacokinetics of Entinostat in Subjects With Breast Cancer or Non-Small Cell Lung Cancer"
+              },
+              {
+                "nct_id": "NCT01594398",
+                "url": "https://clinicaltrials.gov/study/NCT01594398",
+                "excerpt": "Study to Assess Food Effect on Pharmacokinetics of Entinostat in Subjects With Breast Cancer or Non-Small Cell Lung Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Fulvestrant",
+            "target": "Breast Cancer",
+            "weight": 6,
+            "citations": [
+              {
+                "nct_id": "NCT04060862",
+                "url": "https://clinicaltrials.gov/study/NCT04060862",
+                "excerpt": "A Study of Ipatasertib Plus Palbociclib and Fulvestrant Versus Placebo Plus Palbociclib and Fulvestrant in Hormone Receptor Positive and HER2 Negative Locally Advanced Unresectable or Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT07330544",
+                "url": "https://clinicaltrials.gov/study/NCT07330544",
+                "excerpt": "A Phase II Clinical Study Evaluating Entinostat With or Without Anlotinib + Fulvestrant for the Treatment of Hormone Receptor (HR) -Positive, Human Epidermal Growth Factor Receptor-2 (HER-2) -Negative Advanced Breast Cancer That Relapsed or Progressed After Endocrine Therapy"
+              },
+              {
+                "nct_id": "NCT07368998",
+                "url": "https://clinicaltrials.gov/study/NCT07368998",
+                "excerpt": "To Study the Effect of Inavolisib in Combination With Fulvestrant in Participants With Breast Cancer"
+              },
+              {
+                "nct_id": "NCT05433480",
+                "url": "https://clinicaltrials.gov/study/NCT05433480",
+                "excerpt": "A Study of BPI-16350 in Combination With Fulvestrant in Patients With HR+ and HER2- Locally Advanced, Recurrent or Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT05870579",
+                "url": "https://clinicaltrials.gov/study/NCT05870579",
+                "excerpt": "[177Lu]Lu-NeoB in Combination With Ribociclib and Fulvestrant in Participants With ER+, HER2- and GRPR+ Advanced Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Doxorubicin",
+            "target": "Breast Cancer",
+            "weight": 6,
+            "citations": [
+              {
+                "nct_id": "NCT03248427",
+                "url": "https://clinicaltrials.gov/study/NCT03248427",
+                "excerpt": "Neadjuvant Multi-agent Chemotherapy or Letrozole Plus Ribociclib in Luminal B/HER2-negative Breast Cancer."
+              },
+              {
+                "nct_id": "NCT01537029",
+                "url": "https://clinicaltrials.gov/study/NCT01537029",
+                "excerpt": "Effect of Weight on the Population Pharmacokinetic Analysis of Doxorubicin and Cyclophosphamide"
+              },
+              {
+                "nct_id": "NCT00102219",
+                "url": "https://clinicaltrials.gov/study/NCT00102219",
+                "excerpt": "A Study of Pemetrexed Plus Doxorubicin Given to Patients With Advanced Breast Cancer"
+              },
+              {
+                "nct_id": "NCT05207514",
+                "url": "https://clinicaltrials.gov/study/NCT05207514",
+                "excerpt": "Compare the Efficacy and the Safety of Taxotere and Nanoxel M as Neoadjuvant Chemotherapy in Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00544167",
+                "url": "https://clinicaltrials.gov/study/NCT00544167",
+                "excerpt": "Adjuvant Doxorubicin/Cyclophosphamide and Paclitaxel Plus Sorafenib Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Epirubicin",
+            "target": "Breast Cancer",
+            "weight": 6,
+            "citations": [
+              {
+                "nct_id": "NCT00431080",
+                "url": "https://clinicaltrials.gov/study/NCT00431080",
+                "excerpt": "Randomized Phase III Trial Comparing Sequential Administration of FE75C Followed by Docetaxel Versus Paclitaxel as Adjuvant Chemotherapy in Axillary Lymph Node (+) Breast Cancer"
+              },
+              {
+                "nct_id": "NCT03349177",
+                "url": "https://clinicaltrials.gov/study/NCT03349177",
+                "excerpt": "Pathological Complete Response Rate in Locally Advanced Breast Cancer With FEC, EC-T, or TC as Neoadjuvant Chemotherapy"
+              },
+              {
+                "nct_id": "NCT00054587",
+                "url": "https://clinicaltrials.gov/study/NCT00054587",
+                "excerpt": "Combination Chemotherapy With or Without Trastuzumab in Treating Women With Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00424606",
+                "url": "https://clinicaltrials.gov/study/NCT00424606",
+                "excerpt": "Epirubicin and Docetaxel Combination (ET) or Epirubicin Followed by Docetaxel (E/T) for Node Negative (N0) High Risk Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT00424606",
+                "url": "https://clinicaltrials.gov/study/NCT00424606",
+                "excerpt": "Epirubicin and Docetaxel Combination (ET) or Epirubicin Followed by Docetaxel (E/T) for Node Negative (N0) High Risk Breast Cancer Patients"
+              }
+            ]
+          },
+          {
+            "source": "docetaxel",
+            "target": "Breast Cancer",
+            "weight": 6,
+            "citations": [
+              {
+                "nct_id": "NCT00080665",
+                "url": "https://clinicaltrials.gov/study/NCT00080665",
+                "excerpt": "Docetaxel and Imatinib Mesylate in Treating Patients With Locally Advanced or Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00054587",
+                "url": "https://clinicaltrials.gov/study/NCT00054587",
+                "excerpt": "Combination Chemotherapy With or Without Trastuzumab in Treating Women With Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00079118",
+                "url": "https://clinicaltrials.gov/study/NCT00079118",
+                "excerpt": "Irinotecan and Docetaxel in Treating Patients With Refractory Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00003103",
+                "url": "https://clinicaltrials.gov/study/NCT00003103",
+                "excerpt": "Chemotherapy in Treating Patients With Solid Tumors"
+              },
+              {
+                "nct_id": "NCT00003565",
+                "url": "https://clinicaltrials.gov/study/NCT00003565",
+                "excerpt": "Docetaxel in Treating Patients With Solid Tumors"
+              }
+            ]
+          },
+          {
+            "source": "rHSA/GCSF",
+            "target": "Chemotherapy-induced Neutropenia",
+            "weight": 6,
+            "citations": [
+              {
+                "nct_id": "NCT03246009",
+                "url": "https://clinicaltrials.gov/study/NCT03246009",
+                "excerpt": "Fusion Protein rHSA/GCSFclinical Study on Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT03246009",
+                "url": "https://clinicaltrials.gov/study/NCT03246009",
+                "excerpt": "Fusion Protein rHSA/GCSFclinical Study on Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT03246009",
+                "url": "https://clinicaltrials.gov/study/NCT03246009",
+                "excerpt": "Fusion Protein rHSA/GCSFclinical Study on Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT03246009",
+                "url": "https://clinicaltrials.gov/study/NCT03246009",
+                "excerpt": "Fusion Protein rHSA/GCSFclinical Study on Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT03246009",
+                "url": "https://clinicaltrials.gov/study/NCT03246009",
+                "excerpt": "Fusion Protein rHSA/GCSFclinical Study on Breast Cancer Patients"
+              }
+            ]
+          },
+          {
+            "source": "rHSA/GCSF",
+            "target": "Cancer, Breast",
+            "weight": 6,
+            "citations": [
+              {
+                "nct_id": "NCT03246009",
+                "url": "https://clinicaltrials.gov/study/NCT03246009",
+                "excerpt": "Fusion Protein rHSA/GCSFclinical Study on Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT03246009",
+                "url": "https://clinicaltrials.gov/study/NCT03246009",
+                "excerpt": "Fusion Protein rHSA/GCSFclinical Study on Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT03246009",
+                "url": "https://clinicaltrials.gov/study/NCT03246009",
+                "excerpt": "Fusion Protein rHSA/GCSFclinical Study on Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT03246009",
+                "url": "https://clinicaltrials.gov/study/NCT03246009",
+                "excerpt": "Fusion Protein rHSA/GCSFclinical Study on Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT03246009",
+                "url": "https://clinicaltrials.gov/study/NCT03246009",
+                "excerpt": "Fusion Protein rHSA/GCSFclinical Study on Breast Cancer Patients"
+              }
+            ]
+          },
+          {
+            "source": "Fulvestrant",
+            "target": "Metastatic Breast Cancer",
+            "weight": 5,
+            "citations": [
+              {
+                "nct_id": "NCT02394496",
+                "url": "https://clinicaltrials.gov/study/NCT02394496",
+                "excerpt": "Overcoming Endocrine Resistance in Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT03238196",
+                "url": "https://clinicaltrials.gov/study/NCT03238196",
+                "excerpt": "Fulvestrant, Palbociclib and Erdafitinib in ER+/HER2-/FGFR-amplified Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00065325",
+                "url": "https://clinicaltrials.gov/study/NCT00065325",
+                "excerpt": "The Evaluation of the Efficacy and Tolerability of FASLODEX (Fulvestrant) and AROMASIN (Exemestane) in Hormone Receptor Positive Postmenopausal Women With Advanced Breast Cancer"
+              },
+              {
+                "nct_id": "NCT04263298",
+                "url": "https://clinicaltrials.gov/study/NCT04263298",
+                "excerpt": "Fulvestrant Versus Capecitabine as Maintenance Therapy After First-line Chemotherapy in Patients With HR+/HER2- Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT04258163",
+                "url": "https://clinicaltrials.gov/study/NCT04258163",
+                "excerpt": "Association of Survival With Maintenance Therapy in Patients With Metastatic Breast Cancer After First-line Chemotherapy"
+              }
+            ]
+          },
+          {
+            "source": "Letrozole",
+            "target": "Breast Cancer",
+            "weight": 5,
+            "citations": [
+              {
+                "nct_id": "NCT03219476",
+                "url": "https://clinicaltrials.gov/study/NCT03219476",
+                "excerpt": "Neoadjuvant Endocrine Therapy in Hormone Receptor-Positive, Human Epidermal Growth Factor Receptor 2 (HER2)-Negative Node-Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT02941926",
+                "url": "https://clinicaltrials.gov/study/NCT02941926",
+                "excerpt": "Study to Assess the Safety and Efficacy of Ribociclib (LEE011) in Combination With Letrozole for the Treatment of Men and Pre/Postmenopausal Women With HR+ HER2- aBC"
+              },
+              {
+                "nct_id": "NCT05891093",
+                "url": "https://clinicaltrials.gov/study/NCT05891093",
+                "excerpt": "Efficacy and Safety of Fluzoparib Combined With Adjuvant Endocrine Therapy for HR+/HER2- SNF3-subtype Early Breast Cancer (BCTOP-L-A01)"
+              },
+              {
+                "nct_id": "NCT00248170",
+                "url": "https://clinicaltrials.gov/study/NCT00248170",
+                "excerpt": "Comparison Trial of Letrozole to Anastrozole in the Adjuvant Treatment of Postmenopausal Women With Hormone Receptor and Node Positive Breast Cancer"
+              },
+              {
+                "nct_id": "NCT05569811",
+                "url": "https://clinicaltrials.gov/study/NCT05569811",
+                "excerpt": "NeoadjuVAnt muLti-agENT Chemotherapy or Patritumab Deruxtecan With or Without endocrINE Therapy for High-risk HR+/HER2- Breast Cancer - VALENTINE Trial"
+              }
+            ]
+          },
+          {
+            "source": "Biospecimen Collection",
+            "target": "Anatomic Stage IV Breast Cancer AJCC v8",
+            "weight": 5,
+            "citations": [
+              {
+                "nct_id": "NCT03939897",
+                "url": "https://clinicaltrials.gov/study/NCT03939897",
+                "excerpt": "Testing the Addition of Copanlisib to Usual Treatment (Fulvestrant and Abemaciclib) in Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT06500481",
+                "url": "https://clinicaltrials.gov/study/NCT06500481",
+                "excerpt": "Testing Proton Craniospinal Radiation Therapy Versus the Usual Radiation Therapy for Leptomeningeal Metastasis, RADIATE-LM Trial"
+              },
+              {
+                "nct_id": "NCT03715959",
+                "url": "https://clinicaltrials.gov/study/NCT03715959",
+                "excerpt": "Nipple Aspirate Fluid in Detecting Breast Cancer"
+              },
+              {
+                "nct_id": "NCT03606967",
+                "url": "https://clinicaltrials.gov/study/NCT03606967",
+                "excerpt": "Testing the Addition of an Individualized Vaccine to Durvalumab and Tremelimumab and Chemotherapy in Patients With Metastatic Triple Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT04521764",
+                "url": "https://clinicaltrials.gov/study/NCT04521764",
+                "excerpt": "A Vaccine (MV-s-NAP) for the Treatment of Patients With Invasive Metastatic Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Laboratory Biomarker Analysis",
+            "target": "Recurrent Breast Carcinoma",
+            "weight": 5,
+            "citations": [
+              {
+                "nct_id": "NCT02465060",
+                "url": "https://clinicaltrials.gov/study/NCT02465060",
+                "excerpt": "Targeted Therapy Directed by Genetic Testing in Treating Patients With Advanced Refractory Solid Tumors, Lymphomas, or Multiple Myeloma (The MATCH Screening Trial)"
+              },
+              {
+                "nct_id": "NCT02650635",
+                "url": "https://clinicaltrials.gov/study/NCT02650635",
+                "excerpt": "TLR8 Agonist VTX-2337 and Cyclophosphamide in Treating Patients With Metastatic, Persistent, Recurrent, or Progressive Solid Tumors"
+              },
+              {
+                "nct_id": "NCT01552434",
+                "url": "https://clinicaltrials.gov/study/NCT01552434",
+                "excerpt": "Bevacizumab and Temsirolimus Alone or in Combination With Valproic Acid or Cetuximab in Treating Patients With Advanced or Metastatic Malignancy or Other Benign Disease"
+              },
+              {
+                "nct_id": "NCT01351909",
+                "url": "https://clinicaltrials.gov/study/NCT01351909",
+                "excerpt": "Cyclophosphamide and Veliparib in Treating Patients With Locally Advanced or Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT01624441",
+                "url": "https://clinicaltrials.gov/study/NCT01624441",
+                "excerpt": "Dinaciclib and Epirubicin Hydrochloride in Treating Patients With Metastatic Triple-Negative Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "laboratory biomarker analysis",
+            "target": "Breast Cancer",
+            "weight": 5,
+            "citations": [
+              {
+                "nct_id": "NCT01420185",
+                "url": "https://clinicaltrials.gov/study/NCT01420185",
+                "excerpt": "Identification of Genes That Predict Local Recurrence in Samples From Patients With Breast Cancer Treated on NSABP-B-28"
+              },
+              {
+                "nct_id": "NCT00796978",
+                "url": "https://clinicaltrials.gov/study/NCT00796978",
+                "excerpt": "Trastuzumab in Treating Older Women With Early-Stage Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00290758",
+                "url": "https://clinicaltrials.gov/study/NCT00290758",
+                "excerpt": "Genistein in Preventing Breast Cancer in Women at High Risk for Breast Cancer"
+              },
+              {
+                "nct_id": "NCT01015963",
+                "url": "https://clinicaltrials.gov/study/NCT01015963",
+                "excerpt": "Studying DNA in Tissue Samples From Caucasian and African-American Cancer Patients Who Received Docetaxel on Clinical Trial CLB-9871"
+              },
+              {
+                "nct_id": "NCT00651716",
+                "url": "https://clinicaltrials.gov/study/NCT00651716",
+                "excerpt": "T Cells in Predicting Acute Graft-Versus-Host Disease in Patients Undergoing Donor Stem Cell Transplant"
+              }
+            ]
+          },
+          {
+            "source": "placebo",
+            "target": "Breast Cancer",
+            "weight": 5,
+            "citations": [
+              {
+                "nct_id": "NCT00843167",
+                "url": "https://clinicaltrials.gov/study/NCT00843167",
+                "excerpt": "Broccoli Sprout Extract in Treating Women Who Have Had a Mammogram and Breast Biopsy"
+              },
+              {
+                "nct_id": "NCT00060320",
+                "url": "https://clinicaltrials.gov/study/NCT00060320",
+                "excerpt": "Black Cohosh in Treating Hot Flashes in Women Who Have or Who Are At Risk of Developing Breast Cancer"
+              },
+              {
+                "nct_id": "NCT01162018",
+                "url": "https://clinicaltrials.gov/study/NCT01162018",
+                "excerpt": "Acupuncture for Sleep Disruption in Cancer Survivors"
+              },
+              {
+                "nct_id": "NCT05433480",
+                "url": "https://clinicaltrials.gov/study/NCT05433480",
+                "excerpt": "A Study of BPI-16350 in Combination With Fulvestrant in Patients With HR+ and HER2- Locally Advanced, Recurrent or Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00290758",
+                "url": "https://clinicaltrials.gov/study/NCT00290758",
+                "excerpt": "Genistein in Preventing Breast Cancer in Women at High Risk for Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "radiation therapy",
+            "target": "Breast Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT00003162",
+                "url": "https://clinicaltrials.gov/study/NCT00003162",
+                "excerpt": "Radiation Therapy in Treating Patients With Bone Metastases From Breast or Prostate Cancer"
+              },
+              {
+                "nct_id": "NCT00003972",
+                "url": "https://clinicaltrials.gov/study/NCT00003972",
+                "excerpt": "Combination Chemotherapy and Peripheral Stem Cell Transplantation in Treating Patients With Stage II or Stage IIIA Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00647582",
+                "url": "https://clinicaltrials.gov/study/NCT00647582",
+                "excerpt": "Radiation Therapy During and After Lumpectomy in Treating Women With Stage I or Stage II Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00002696",
+                "url": "https://clinicaltrials.gov/study/NCT00002696",
+                "excerpt": "Combination Chemotherapy in Treating Women With Stage III Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "capecitabine",
+            "target": "Breast Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT00031876",
+                "url": "https://clinicaltrials.gov/study/NCT00031876",
+                "excerpt": "Capecitabine and Paclitaxel in Treating Patients With Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00107393",
+                "url": "https://clinicaltrials.gov/study/NCT00107393",
+                "excerpt": "Trastuzumab and Capecitabine in Treating Women With Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00049244",
+                "url": "https://clinicaltrials.gov/study/NCT00049244",
+                "excerpt": "BMS-247550 Plus Capecitabine in Treating Patients With Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00450515",
+                "url": "https://clinicaltrials.gov/study/NCT00450515",
+                "excerpt": "Vinflunine and Capecitabine in Treating Patients With Previously Treated Metastatic Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Palbociclib",
+            "target": "Breast Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT03530696",
+                "url": "https://clinicaltrials.gov/study/NCT03530696",
+                "excerpt": "T-DM1 and Palbociclib for Metastatic HER2 Breast Cancer"
+              },
+              {
+                "nct_id": "NCT04060862",
+                "url": "https://clinicaltrials.gov/study/NCT04060862",
+                "excerpt": "A Study of Ipatasertib Plus Palbociclib and Fulvestrant Versus Placebo Plus Palbociclib and Fulvestrant in Hormone Receptor Positive and HER2 Negative Locally Advanced Unresectable or Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT05384119",
+                "url": "https://clinicaltrials.gov/study/NCT05384119",
+                "excerpt": "Phase 1b/2 Study of TTI-101 in Combination for Patients With Metastatic Hormone Receptor-Positive and HER2-Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT05501886",
+                "url": "https://clinicaltrials.gov/study/NCT05501886",
+                "excerpt": "Gedatolisib Plus Fulvestrant With or Without Palbociclib vs Standard-of-Care for the Treatment of Patients With Advanced or Metastatic HR+/HER2- Breast Cancer (VIKTORIA-1)"
+              }
+            ]
+          },
+          {
+            "source": "Anastrozole",
+            "target": "Breast Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT03219476",
+                "url": "https://clinicaltrials.gov/study/NCT03219476",
+                "excerpt": "Neoadjuvant Endocrine Therapy in Hormone Receptor-Positive, Human Epidermal Growth Factor Receptor 2 (HER2)-Negative Node-Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT05837455",
+                "url": "https://clinicaltrials.gov/study/NCT05837455",
+                "excerpt": "NeoTAILOR: ABiomarker-directed Approach to Guide Neoadjuvant Therapy for Patients With Stage II/III ER-positive, HER2-negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT05891093",
+                "url": "https://clinicaltrials.gov/study/NCT05891093",
+                "excerpt": "Efficacy and Safety of Fluzoparib Combined With Adjuvant Endocrine Therapy for HR+/HER2- SNF3-subtype Early Breast Cancer (BCTOP-L-A01)"
+              },
+              {
+                "nct_id": "NCT00248170",
+                "url": "https://clinicaltrials.gov/study/NCT00248170",
+                "excerpt": "Comparison Trial of Letrozole to Anastrozole in the Adjuvant Treatment of Postmenopausal Women With Hormone Receptor and Node Positive Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Biospecimen Collection",
+            "target": "Breast Carcinoma",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT02465060",
+                "url": "https://clinicaltrials.gov/study/NCT02465060",
+                "excerpt": "Targeted Therapy Directed by Genetic Testing in Treating Patients With Advanced Refractory Solid Tumors, Lymphomas, or Multiple Myeloma (The MATCH Screening Trial)"
+              },
+              {
+                "nct_id": "NCT04456140",
+                "url": "https://clinicaltrials.gov/study/NCT04456140",
+                "excerpt": "Pro-Active Genetic Testing in Patients With Solid Tumors, Inherit Study"
+              },
+              {
+                "nct_id": "NCT04671498",
+                "url": "https://clinicaltrials.gov/study/NCT04671498",
+                "excerpt": "Droplet-BC Screening Test for the Detection of Breast Cancer, the DROPLET-BC Study"
+              },
+              {
+                "nct_id": "NCT06130826",
+                "url": "https://clinicaltrials.gov/study/NCT06130826",
+                "excerpt": "Immune Response Activation for the Treatment of Unresectable Metastatic Colorectal Cancer or CEA Positive Metastatic Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Unknown",
+            "target": "Breast Neoplasms",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT00966043",
+                "url": "https://clinicaltrials.gov/study/NCT00966043",
+                "excerpt": "Prevalence of Genetic Polymorphisms in Genes Coding for Tamoxifen Metabolising Enzymes"
+              },
+              {
+                "nct_id": "NCT04676438",
+                "url": "https://clinicaltrials.gov/study/NCT04676438",
+                "excerpt": "Persistant Post-mastectomy Pain in Breast Cancer : Incidence and Risk Factors"
+              },
+              {
+                "nct_id": "NCT04799080",
+                "url": "https://clinicaltrials.gov/study/NCT04799080",
+                "excerpt": "Chemotherapy-induced Peripheral Neuropathy (CIPN) on Motor and Sensory Function"
+              },
+              {
+                "nct_id": "NCT06405269",
+                "url": "https://clinicaltrials.gov/study/NCT06405269",
+                "excerpt": "Effect of (neo)Adjuvant Therapy on Lipids in Young Breast Cancer Patients"
+              }
+            ]
+          },
+          {
+            "source": "Unknown",
+            "target": "Prostate Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT04354064",
+                "url": "https://clinicaltrials.gov/study/NCT04354064",
+                "excerpt": "Circulating Tumor DNA (ctDNA) for Early Treatment Response Assessment of Solid Tumors"
+              },
+              {
+                "nct_id": "NCT01231932",
+                "url": "https://clinicaltrials.gov/study/NCT01231932",
+                "excerpt": "Characterizing Fatigue Experienced by Cancer Patients Receiving Primary Treatment and Cancer Survivors"
+              },
+              {
+                "nct_id": "NCT02694380",
+                "url": "https://clinicaltrials.gov/study/NCT02694380",
+                "excerpt": "Measuring the Effect of Radiation Therapy on Patient Activity Levels"
+              },
+              {
+                "nct_id": "NCT01931644",
+                "url": "https://clinicaltrials.gov/study/NCT01931644",
+                "excerpt": "At-Home Research Study for Patients With Autoimmune, Inflammatory, Genetic, Hematological, Infectious, Neurological, CNS, Oncological, Respiratory, Metabolic Conditions"
+              }
+            ]
+          },
+          {
+            "source": "Unknown",
+            "target": "Lung Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT04354064",
+                "url": "https://clinicaltrials.gov/study/NCT04354064",
+                "excerpt": "Circulating Tumor DNA (ctDNA) for Early Treatment Response Assessment of Solid Tumors"
+              },
+              {
+                "nct_id": "NCT02694380",
+                "url": "https://clinicaltrials.gov/study/NCT02694380",
+                "excerpt": "Measuring the Effect of Radiation Therapy on Patient Activity Levels"
+              },
+              {
+                "nct_id": "NCT06898333",
+                "url": "https://clinicaltrials.gov/study/NCT06898333",
+                "excerpt": "Implementation and Effectiveness of the BJC-Pink and Pearl Project on Lung Cancer Screening"
+              },
+              {
+                "nct_id": "NCT01931644",
+                "url": "https://clinicaltrials.gov/study/NCT01931644",
+                "excerpt": "At-Home Research Study for Patients With Autoimmune, Inflammatory, Genetic, Hematological, Infectious, Neurological, CNS, Oncological, Respiratory, Metabolic Conditions"
+              }
+            ]
+          },
+          {
+            "source": "Questionnaires",
+            "target": "Breast Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT07487844",
+                "url": "https://clinicaltrials.gov/study/NCT07487844",
+                "excerpt": "Pulsed Electric Field Ablation for Metastatic Breast Cancer"
+              },
+              {
+                "nct_id": "NCT07631026",
+                "url": "https://clinicaltrials.gov/study/NCT07631026",
+                "excerpt": "Wearable Device Tracked Recovery From Autologous Breast Reconstructive Surgery"
+              },
+              {
+                "nct_id": "NCT07631026",
+                "url": "https://clinicaltrials.gov/study/NCT07631026",
+                "excerpt": "Wearable Device Tracked Recovery From Autologous Breast Reconstructive Surgery"
+              },
+              {
+                "nct_id": "NCT07631026",
+                "url": "https://clinicaltrials.gov/study/NCT07631026",
+                "excerpt": "Wearable Device Tracked Recovery From Autologous Breast Reconstructive Surgery"
+              }
+            ]
+          },
+          {
+            "source": "Quality-of-Life Assessment",
+            "target": "Breast Carcinoma",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT02640053",
+                "url": "https://clinicaltrials.gov/study/NCT02640053",
+                "excerpt": "Topical Cryotherapy in Reducing Pain in Patients With Chemotherapy Induced Peripheral Neuropathy or Paclitaxel Induced Acute Pain Syndrome"
+              },
+              {
+                "nct_id": "NCT04297384",
+                "url": "https://clinicaltrials.gov/study/NCT04297384",
+                "excerpt": "Breast Cancer Pathways Program Impact on Patient Shared Decision Making and Experience in Academic and Community Practice"
+              },
+              {
+                "nct_id": "NCT02192333",
+                "url": "https://clinicaltrials.gov/study/NCT02192333",
+                "excerpt": "Survivorship Care in Reducing Symptoms in Young Adult Cancer Survivors"
+              },
+              {
+                "nct_id": "NCT03374995",
+                "url": "https://clinicaltrials.gov/study/NCT03374995",
+                "excerpt": "Topical Keratin in Treating Radiation Dermatitis in Patients With Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Questionnaire Administration",
+            "target": "Breast Carcinoma",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT02640053",
+                "url": "https://clinicaltrials.gov/study/NCT02640053",
+                "excerpt": "Topical Cryotherapy in Reducing Pain in Patients With Chemotherapy Induced Peripheral Neuropathy or Paclitaxel Induced Acute Pain Syndrome"
+              },
+              {
+                "nct_id": "NCT02192333",
+                "url": "https://clinicaltrials.gov/study/NCT02192333",
+                "excerpt": "Survivorship Care in Reducing Symptoms in Young Adult Cancer Survivors"
+              },
+              {
+                "nct_id": "NCT04081779",
+                "url": "https://clinicaltrials.gov/study/NCT04081779",
+                "excerpt": "Survivorship Care Plans and Telehealth Education for the Improvement of Access to Cancer Survivorship, the IMPACT Study"
+              },
+              {
+                "nct_id": "NCT06456411",
+                "url": "https://clinicaltrials.gov/study/NCT06456411",
+                "excerpt": "Functional Near-Infrared Spectroscopy and Virtual Reality Relaxation Programs for Pain Management in Patients With Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Capecitabine",
+            "target": "Triple Negative Breast Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT04849364",
+                "url": "https://clinicaltrials.gov/study/NCT04849364",
+                "excerpt": "Circulating Tumor DNA Enriched, Genomically Directed Post-neoadjuvant Trial for Patients With Residual Triple Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT04595565",
+                "url": "https://clinicaltrials.gov/study/NCT04595565",
+                "excerpt": "Sacituzumab Govitecan in Primary HER2-negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT03387085",
+                "url": "https://clinicaltrials.gov/study/NCT03387085",
+                "excerpt": "QUILT-3.067: NANT Triple Negative Breast Cancer (TNBC) Vaccine: Molecularly Informed Integrated Immunotherapy in Subjects With TNBC Who Have Progressed on or After Standard-of-care Therapy."
+              },
+              {
+                "nct_id": "NCT06229067",
+                "url": "https://clinicaltrials.gov/study/NCT06229067",
+                "excerpt": "Efficacy and Safety of PD-L1 Monoclonal Antibody Combined With Metronomic VEX in Advanced Triple-negative Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Unknown",
+            "target": "Metastatic Breast Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT04937660",
+                "url": "https://clinicaltrials.gov/study/NCT04937660",
+                "excerpt": "Treatment Patterns & Clinical Outcomes of Palbociclib Combinations in HR+HER2-MBC"
+              },
+              {
+                "nct_id": "NCT01715155",
+                "url": "https://clinicaltrials.gov/study/NCT01715155",
+                "excerpt": "Management of Metastatic Breast Cancer in Clinical Practice - Retrospective Study"
+              },
+              {
+                "nct_id": "NCT00735215",
+                "url": "https://clinicaltrials.gov/study/NCT00735215",
+                "excerpt": "Faslodex Registry: Fulvestrant in Current Clinical Practice"
+              },
+              {
+                "nct_id": "NCT03908853",
+                "url": "https://clinicaltrials.gov/study/NCT03908853",
+                "excerpt": "Pain Phenotyping of Patients With Bone Cancer Pain"
+              }
+            ]
+          },
+          {
+            "source": "Ribociclib",
+            "target": "Breast Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT03248427",
+                "url": "https://clinicaltrials.gov/study/NCT03248427",
+                "excerpt": "Neadjuvant Multi-agent Chemotherapy or Letrozole Plus Ribociclib in Luminal B/HER2-negative Breast Cancer."
+              },
+              {
+                "nct_id": "NCT02941926",
+                "url": "https://clinicaltrials.gov/study/NCT02941926",
+                "excerpt": "Study to Assess the Safety and Efficacy of Ribociclib (LEE011) in Combination With Letrozole for the Treatment of Men and Pre/Postmenopausal Women With HR+ HER2- aBC"
+              },
+              {
+                "nct_id": "NCT05870579",
+                "url": "https://clinicaltrials.gov/study/NCT05870579",
+                "excerpt": "[177Lu]Lu-NeoB in Combination With Ribociclib and Fulvestrant in Participants With ER+, HER2- and GRPR+ Advanced Breast Cancer"
+              },
+              {
+                "nct_id": "NCT05569187",
+                "url": "https://clinicaltrials.gov/study/NCT05569187",
+                "excerpt": "Ribociclib in Combination With Non-steroidal Aromatase Inhibitors in Patients With Advanced Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "conventional surgery",
+            "target": "Breast Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT00002696",
+                "url": "https://clinicaltrials.gov/study/NCT00002696",
+                "excerpt": "Combination Chemotherapy in Treating Women With Stage III Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00036998",
+                "url": "https://clinicaltrials.gov/study/NCT00036998",
+                "excerpt": "Microwave Thermotherapy in Treating Women With Stage I or Stage II Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00107211",
+                "url": "https://clinicaltrials.gov/study/NCT00107211",
+                "excerpt": "Vaccine Therapy in Treating Patients Who Are Undergoing Surgery for Ductal Carcinoma In Situ of the Breast"
+              },
+              {
+                "nct_id": "NCT00253500",
+                "url": "https://clinicaltrials.gov/study/NCT00253500",
+                "excerpt": "Epirubicin in Treating Women Who Are Undergoing Surgery for Stage I, Stage II, or Stage III Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Pertuzumab",
+            "target": "Breast Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT02073487",
+                "url": "https://clinicaltrials.gov/study/NCT02073487",
+                "excerpt": "Neoadjuvant TDM1 With Lapatinib and Abraxane Compared With Trastuzumab Plus Pertuzumab With Paclitaxel"
+              },
+              {
+                "nct_id": "NCT07047755",
+                "url": "https://clinicaltrials.gov/study/NCT07047755",
+                "excerpt": "Trastuzumab Rezetecan Plus Pertuzumab in the Neoadjuvant Treatment of HER2 Positive BC"
+              },
+              {
+                "nct_id": "NCT03820141",
+                "url": "https://clinicaltrials.gov/study/NCT03820141",
+                "excerpt": "Durvalumab With Trastuzumab and Pertuzumab in HER2-Enriched Breast Cancer"
+              },
+              {
+                "nct_id": "NCT03988036",
+                "url": "https://clinicaltrials.gov/study/NCT03988036",
+                "excerpt": "A Study With Pembrolizumab in Combination With Dual Anti-HER2 Blockade With Trastuzumab and Pertuzumab in Early Breast Cancer Patients With Molecular HER2-enriched Intrinsic Subtype (Keyriched-1)"
+              }
+            ]
+          },
+          {
+            "source": "Unknown",
+            "target": "Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT02340715",
+                "url": "https://clinicaltrials.gov/study/NCT02340715",
+                "excerpt": "Advanced MRI Sequences for Radiation Therapy Treatment Planning"
+              },
+              {
+                "nct_id": "NCT01231932",
+                "url": "https://clinicaltrials.gov/study/NCT01231932",
+                "excerpt": "Characterizing Fatigue Experienced by Cancer Patients Receiving Primary Treatment and Cancer Survivors"
+              },
+              {
+                "nct_id": "NCT04799080",
+                "url": "https://clinicaltrials.gov/study/NCT04799080",
+                "excerpt": "Chemotherapy-induced Peripheral Neuropathy (CIPN) on Motor and Sensory Function"
+              },
+              {
+                "nct_id": "NCT00655447",
+                "url": "https://clinicaltrials.gov/study/NCT00655447",
+                "excerpt": "Examining the Long-Term Risks of Oophorectomy"
+              }
+            ]
+          },
+          {
+            "source": "Abemaciclib",
+            "target": "Breast Cancer",
+            "weight": 4,
+            "citations": [
+              {
+                "nct_id": "NCT05891093",
+                "url": "https://clinicaltrials.gov/study/NCT05891093",
+                "excerpt": "Efficacy and Safety of Fluzoparib Combined With Adjuvant Endocrine Therapy for HR+/HER2- SNF3-subtype Early Breast Cancer (BCTOP-L-A01)"
+              },
+              {
+                "nct_id": "NCT06169371",
+                "url": "https://clinicaltrials.gov/study/NCT06169371",
+                "excerpt": "Abemaciclib Dose Escalation to Maintain Intensity (ADE-MI)"
+              },
+              {
+                "nct_id": "NCT06169371",
+                "url": "https://clinicaltrials.gov/study/NCT06169371",
+                "excerpt": "Abemaciclib Dose Escalation to Maintain Intensity (ADE-MI)"
+              },
+              {
+                "nct_id": "NCT06169371",
+                "url": "https://clinicaltrials.gov/study/NCT06169371",
+                "excerpt": "Abemaciclib Dose Escalation to Maintain Intensity (ADE-MI)"
+              }
+            ]
+          },
+          {
+            "source": "Palbociclib",
+            "target": "Metastatic Breast Cancer",
+            "weight": 3,
+            "citations": [
+              {
+                "nct_id": "NCT04318223",
+                "url": "https://clinicaltrials.gov/study/NCT04318223",
+                "excerpt": "Palbociclib Plus Fulvestrant in Women With Hormone Receptor Positive and Human Epidermal Growth Factor Receptor Type 2 Negative Locally Advanced or Metastatic Breast Cancer Previously Treated With a CDK4/6 Inhibitor in Combination With Hormonal Therapy"
+              },
+              {
+                "nct_id": "NCT03530696",
+                "url": "https://clinicaltrials.gov/study/NCT03530696",
+                "excerpt": "T-DM1 and Palbociclib for Metastatic HER2 Breast Cancer"
+              },
+              {
+                "nct_id": "NCT03238196",
+                "url": "https://clinicaltrials.gov/study/NCT03238196",
+                "excerpt": "Fulvestrant, Palbociclib and Erdafitinib in ER+/HER2-/FGFR-amplified Metastatic Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Survey Administration",
+            "target": "Breast Carcinoma",
+            "weight": 3,
+            "citations": [
+              {
+                "nct_id": "NCT03964896",
+                "url": "https://clinicaltrials.gov/study/NCT03964896",
+                "excerpt": "Nurse-Driven Telephone Intervention in Improving Side Effects in Cancer Patients Undergoing Chemotherapy"
+              },
+              {
+                "nct_id": "NCT04456140",
+                "url": "https://clinicaltrials.gov/study/NCT04456140",
+                "excerpt": "Pro-Active Genetic Testing in Patients With Solid Tumors, Inherit Study"
+              },
+              {
+                "nct_id": "NCT04297384",
+                "url": "https://clinicaltrials.gov/study/NCT04297384",
+                "excerpt": "Breast Cancer Pathways Program Impact on Patient Shared Decision Making and Experience in Academic and Community Practice"
+              }
+            ]
+          },
+          {
+            "source": "axillary lymph node dissection",
+            "target": "Breast Cancer",
+            "weight": 3,
+            "citations": [
+              {
+                "nct_id": "NCT00932035",
+                "url": "https://clinicaltrials.gov/study/NCT00932035",
+                "excerpt": "Axillary Lymph Node Preservation Surgery in Reducing Lymphedema in Patients With Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00932035",
+                "url": "https://clinicaltrials.gov/study/NCT00932035",
+                "excerpt": "Axillary Lymph Node Preservation Surgery in Reducing Lymphedema in Patients With Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00003855",
+                "url": "https://clinicaltrials.gov/study/NCT00003855",
+                "excerpt": "Lymph Node Removal in Treating Women Who Have Stage I or Stage IIA Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Vinorelbine",
+            "target": "Breast Cancer",
+            "weight": 3,
+            "citations": [
+              {
+                "nct_id": "NCT00128310",
+                "url": "https://clinicaltrials.gov/study/NCT00128310",
+                "excerpt": "Vinorelbine Versus Gemcitabine Plus Vinorelbine in Metastatic Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT04307147",
+                "url": "https://clinicaltrials.gov/study/NCT04307147",
+                "excerpt": "NX in Luminal B Breast Cancer Patients After Neoadjuvant Chemotherapy"
+              },
+              {
+                "nct_id": "NCT06229067",
+                "url": "https://clinicaltrials.gov/study/NCT06229067",
+                "excerpt": "Efficacy and Safety of PD-L1 Monoclonal Antibody Combined With Metronomic VEX in Advanced Triple-negative Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "Gemcitabine",
+            "target": "Breast Cancer",
+            "weight": 3,
+            "citations": [
+              {
+                "nct_id": "NCT00128310",
+                "url": "https://clinicaltrials.gov/study/NCT00128310",
+                "excerpt": "Vinorelbine Versus Gemcitabine Plus Vinorelbine in Metastatic Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT00846027",
+                "url": "https://clinicaltrials.gov/study/NCT00846027",
+                "excerpt": "A Study of Avastin (Bevacizumab) in Combination With Taxane-based Chemotherapy as First Line Treatment in Patients With HER-2 Negative Breast Cancer"
+              },
+              {
+                "nct_id": "NCT02538432",
+                "url": "https://clinicaltrials.gov/study/NCT02538432",
+                "excerpt": "Phase II Trial of EP4 Receptor Antagonist, AAT-007 (RQ-07; CJ-023,423) in Advanced Solid Tumors"
+              }
+            ]
+          },
+          {
+            "source": "Yoga",
+            "target": "Breast Cancer",
+            "weight": 3,
+            "citations": [
+              {
+                "nct_id": "NCT04692090",
+                "url": "https://clinicaltrials.gov/study/NCT04692090",
+                "excerpt": "Effects of Yoga on Phase Angle and Quality of Life in Patients With Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00476203",
+                "url": "https://clinicaltrials.gov/study/NCT00476203",
+                "excerpt": "Yoga Study in Breast Cancer Patients"
+              },
+              {
+                "nct_id": "NCT01230671",
+                "url": "https://clinicaltrials.gov/study/NCT01230671",
+                "excerpt": "The Physical and Psychological Benefits of Yoga and Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "T-DM1",
+            "target": "Breast Cancer",
+            "weight": 3,
+            "citations": [
+              {
+                "nct_id": "NCT03530696",
+                "url": "https://clinicaltrials.gov/study/NCT03530696",
+                "excerpt": "T-DM1 and Palbociclib for Metastatic HER2 Breast Cancer"
+              },
+              {
+                "nct_id": "NCT02073487",
+                "url": "https://clinicaltrials.gov/study/NCT02073487",
+                "excerpt": "Neoadjuvant TDM1 With Lapatinib and Abraxane Compared With Trastuzumab Plus Pertuzumab With Paclitaxel"
+              },
+              {
+                "nct_id": "NCT03429101",
+                "url": "https://clinicaltrials.gov/study/NCT03429101",
+                "excerpt": "A Study of Poziotinib in Combination With T-DM1 in HER2-Positive Breast Cancer"
+              }
+            ]
+          },
+          {
+            "source": "laboratory biomarker analysis",
+            "target": "HER2-positive Breast Cancer",
+            "weight": 3,
+            "citations": [
+              {
+                "nct_id": "NCT02226276",
+                "url": "https://clinicaltrials.gov/study/NCT02226276",
+                "excerpt": "Copper Cu 64-DOTA-Trastuzumab PET in Predicting Response to Treatment With Ado-Trastuzumab Emtansine in Patients With Metastatic HER2 Positive Breast Cancer"
+              },
+              {
+                "nct_id": "NCT00194779",
+                "url": "https://clinicaltrials.gov/study/NCT00194779",
+                "excerpt": "Combination Chemotherapy and Filgrastim Before Surgery in Treating Patients With HER2-Positive Breast Cancer That Can Be Removed By Surgery"
+              },
+              {
+                "nct_id": "NCT00343109",
+                "url": "https://clinicaltrials.gov/study/NCT00343109",
+                "excerpt": "Vaccine Therapy in Treating Patients Receiving Trastuzumab For HER2-Positive Stage IIIB-IV Breast Cancer"
+              }
+            ]
+          }
+        ]
+      },
+      "notes": "This network graph shows 52 nodes connected by 50 edges representing relationships in breast cancer trials. Breast cancer is linked most strongly to 'Unknown' with 61 studies, followed by drugs like Cyclophosphamide (11 studies), Trastuzumab and Capecitabine (10 studies each), and Paclitaxel (10 studies). Multiple edges indicate different case-sensitive entries for the same drug (e.g., Trastuzumab and trastuzumab).",
+      "query_interpretation": "User wants to see how drugs (interventions) are linked with specific conditions in breast cancer trials. Using a relationship_network type, group_by intervention and condition, so the resulting network can show drugs and associated conditions in breast cancer studies."
+    },
+    "meta": {
+      "query": "Show a network of drugs and conditions in breast cancer trials",
+      "filters": {
+        "condition": "breast cancer"
+      },
+      "total_studies_analyzed": 1000,
+      "source": "clinicaltrials.gov",
+      "api_version": "v2",
+      "timestamp": "2026-07-31T00:46:16.082366+00:00"
+    }
+  }
+}

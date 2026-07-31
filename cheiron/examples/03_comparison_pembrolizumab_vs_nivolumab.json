@@ -1,0 +1,520 @@
+{
+  "request": {
+    "query": "Compare the phase distribution of trials for Pembrolizumab vs Nivolumab"
+  },
+  "response": {
+    "visualization": {
+      "type": "grouped_bar_chart",
+      "title": "Pembrolizumab vs Nivolumab Clinical Trials by Phase",
+      "encoding": {
+        "x": {
+          "field": "phase",
+          "type": "nominal",
+          "title": "Phase"
+        },
+        "y": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Number of Trials"
+        },
+        "color": {
+          "field": "entity",
+          "type": "nominal",
+          "title": "Entity"
+        },
+        "size": null,
+        "nodes": null,
+        "edges": null
+      },
+      "data": [
+        {
+          "values": {
+            "phase": "PHASE2",
+            "trial_count": 595,
+            "entity": "Pembrolizumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT03274661",
+              "url": "https://clinicaltrials.gov/study/NCT03274661",
+              "excerpt": "Pembrolizumab Activity in Patients With Homologous Recombination Competent and Deficient Tumors | Phase: PHASE2"
+            },
+            {
+              "nct_id": "NCT04061590",
+              "url": "https://clinicaltrials.gov/study/NCT04061590",
+              "excerpt": "Pembrolizumab With or Without Chemotherapy Before Surgery in Treating Patients With Stage I-IIIA Non-Small Cell Lung Cancer | Phase: PHASE2"
+            },
+            {
+              "nct_id": "NCT05429697",
+              "url": "https://clinicaltrials.gov/study/NCT05429697",
+              "excerpt": "Study of SMT-NK Inj. Plus Pembrolizumab vs Pembrolizumab Monotherapy in Patients With Advanced Biliary Tract Cancer | Phase: PHASE2, PHASE3"
+            },
+            {
+              "nct_id": "NCT07466927",
+              "url": "https://clinicaltrials.gov/study/NCT07466927",
+              "excerpt": "Study of Multi-mode Thermal Therapy Combined With Immunotherapy In Patients With HER2-negative Breast Cancer With Liver Metastases | Phase: PHASE2"
+            },
+            {
+              "nct_id": "NCT02331368",
+              "url": "https://clinicaltrials.gov/study/NCT02331368",
+              "excerpt": "Phase 2 Multi-center Study of Anti-PD-1 During Lymphopenic State After HDT/ASCT for Multiple Myeloma | Phase: PHASE2"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "PHASE1",
+            "trial_count": 379,
+            "entity": "Pembrolizumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT07227168",
+              "url": "https://clinicaltrials.gov/study/NCT07227168",
+              "excerpt": "A Study of STRO-004 in Adults With Refractory/Recurrent Metastatic Cancer | Phase: PHASE1"
+            },
+            {
+              "nct_id": "NCT04128423",
+              "url": "https://clinicaltrials.gov/study/NCT04128423",
+              "excerpt": "Study of AMV564 in Subjects With Advanced Solid Tumors | Phase: PHASE1"
+            },
+            {
+              "nct_id": "NCT06447662",
+              "url": "https://clinicaltrials.gov/study/NCT06447662",
+              "excerpt": "A Study to Learn About the Study Medicine PF-07934040 When Given Alone or With Other Anti-cancer Therapies in People With Advanced Solid Tumors That Have a Genetic Mutation. | Phase: PHASE1"
+            },
+            {
+              "nct_id": "NCT07217496",
+              "url": "https://clinicaltrials.gov/study/NCT07217496",
+              "excerpt": "N-803 in Combination With Pembrolizumab and Enfortumab Vedotin for Treatment of Urothelial Cancer | Phase: PHASE1"
+            },
+            {
+              "nct_id": "NCT05784688",
+              "url": "https://clinicaltrials.gov/study/NCT05784688",
+              "excerpt": "Study of TU2218 in Combination With KEYTRUDA\u00ae(Pembrolizumab) in Patients With Advanced Solid Tumors | Phase: PHASE1, PHASE2"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "PHASE3",
+            "trial_count": 121,
+            "entity": "Pembrolizumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT05429697",
+              "url": "https://clinicaltrials.gov/study/NCT05429697",
+              "excerpt": "Study of SMT-NK Inj. Plus Pembrolizumab vs Pembrolizumab Monotherapy in Patients With Advanced Biliary Tract Cancer | Phase: PHASE2, PHASE3"
+            },
+            {
+              "nct_id": "NCT05791097",
+              "url": "https://clinicaltrials.gov/study/NCT05791097",
+              "excerpt": "Study of Efficacy and Safety of Ociperlimab in Combination With Tislelizumab and Platinum-based Doublet Chemotherapy as First-line Treatment for Participants With Locally Advanced or Metastatic NSCLC. | Phase: PHASE3"
+            },
+            {
+              "nct_id": "NCT07118527",
+              "url": "https://clinicaltrials.gov/study/NCT07118527",
+              "excerpt": "A Phase III Study of SHR-A1811 in Combination With Chemotherapy and Adebrelimab in Previously Untreated Patients With Gastric or Gastroesophageal Junction Adenocarcinoma | Phase: PHASE3"
+            },
+            {
+              "nct_id": "NCT05055908",
+              "url": "https://clinicaltrials.gov/study/NCT05055908",
+              "excerpt": "Efficacy and Biomarker Development for Lung Cancer Treated With Immune Checkpoint Inhibitors | Phase: PHASE3"
+            },
+            {
+              "nct_id": "NCT05523323",
+              "url": "https://clinicaltrials.gov/study/NCT05523323",
+              "excerpt": "A Study of Pembrolizumab (MK-3475) With or Without Lenvatinib (E7080/MK-7902) as First Line (1L) Intervention in a Programmed Cell Death-ligand 1 (PD-L1) Selected Population With Recurrent or Metastatic Head and Neck Squamous Cell Carcinoma (R/M HNSCC) (MK-7902-010/LEAP-010)-China Extension | Phase: PHASE3"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "NOT_APPLICABLE",
+            "trial_count": 52,
+            "entity": "Pembrolizumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06194695",
+              "url": "https://clinicaltrials.gov/study/NCT06194695",
+              "excerpt": "DEB-TACE, Lenvatinib and Anti-PD(L)1 Antibody as Conversion Therapy for Intrahepatic Cholangiocarcinoma"
+            },
+            {
+              "nct_id": "NCT04115410",
+              "url": "https://clinicaltrials.gov/study/NCT04115410",
+              "excerpt": "PD-1 Immune Checkpoint Inhibitors and Immune-Related Adverse Events: a Cohort Study"
+            },
+            {
+              "nct_id": "NCT04994795",
+              "url": "https://clinicaltrials.gov/study/NCT04994795",
+              "excerpt": "Predictive Multimodal Signatures Associated With Response to Treatment and Prognosis of Patients With Stage IV Non-small Cell Lung Cancer"
+            },
+            {
+              "nct_id": "NCT04975932",
+              "url": "https://clinicaltrials.gov/study/NCT04975932",
+              "excerpt": "Efficacy and Safety of TACE in Combination With ICIs for HCC: a Real-world Study"
+            },
+            {
+              "nct_id": "NCT07015333",
+              "url": "https://clinicaltrials.gov/study/NCT07015333",
+              "excerpt": "Case Review of Patients With Betel Nut-induced Oral Cancer Treated With Pembrolizumab and Cetuximab"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "NA",
+            "trial_count": 16,
+            "entity": "Pembrolizumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT04453046",
+              "url": "https://clinicaltrials.gov/study/NCT04453046",
+              "excerpt": "Hemopurifier Plus Pembrolizumab in Head and Neck Cancer | Phase: NA"
+            },
+            {
+              "nct_id": "NCT05834413",
+              "url": "https://clinicaltrials.gov/study/NCT05834413",
+              "excerpt": "Clinical Study on the Prevention of Driver Gene Negative Ib-IIIb Lung Cancer Recurrence and Metastasis by Staged Chinese Herbal Medicine Combined With Chemotherapy and Immune Checkpoint Inhibitors | Phase: NA"
+            },
+            {
+              "nct_id": "NCT06823323",
+              "url": "https://clinicaltrials.gov/study/NCT06823323",
+              "excerpt": "The Study on the Efficacy and Safety of Lactobacillus Johnsonii in Combination with CapeOX and Pembrolizumab for the Treatment of MSS/pMMR Metastatic Colorectal Cancer. | Phase: NA"
+            },
+            {
+              "nct_id": "NCT05981326",
+              "url": "https://clinicaltrials.gov/study/NCT05981326",
+              "excerpt": "Prediction in Silico of Pathological Response in a Prospective Cohort Study of Early Breast Cancer Patients | Phase: NA"
+            },
+            {
+              "nct_id": "NCT05547282",
+              "url": "https://clinicaltrials.gov/study/NCT05547282",
+              "excerpt": "Low-dose Radiotherapy Combined With Conventional Radiotherapy After Immunotherapy Failure | Phase: NA"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "EARLY_PHASE1",
+            "trial_count": 16,
+            "entity": "Pembrolizumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06637306",
+              "url": "https://clinicaltrials.gov/study/NCT06637306",
+              "excerpt": "Neoadjuvant Dupilumab, Pembrolizumab, Paclitaxel, and Carboplatin in Locally Advanced Triple Negative Breast Cancer | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT03574220",
+              "url": "https://clinicaltrials.gov/study/NCT03574220",
+              "excerpt": "Pembrolizumab After Lung SBRT for Medically Inoperable Early Stage Non-small Cell Lung Cancer | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT06413095",
+              "url": "https://clinicaltrials.gov/study/NCT06413095",
+              "excerpt": "PBI-MST-01 (NCT04541108) Substudy MSD-03: Intratumoral Microdosing of Pembrolizumab Alone and With MK-0482 or MK-4830 in HNSCC or STS | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT03599453",
+              "url": "https://clinicaltrials.gov/study/NCT03599453",
+              "excerpt": "Chemokine Modulation Therapy and Pembrolizumab in Treating Participants With Metastatic Triple-Negative Breast Cancer | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT05204290",
+              "url": "https://clinicaltrials.gov/study/NCT05204290",
+              "excerpt": "Study of Combined Decompressive Spine Radiosurgery and Pembrolizumab | Phase: EARLY_PHASE1"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "PHASE4",
+            "trial_count": 8,
+            "entity": "Pembrolizumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT03891979",
+              "url": "https://clinicaltrials.gov/study/NCT03891979",
+              "excerpt": "Gut Microbiome Modulation to Enable Efficacy of Checkpoint-based Immunotherapy in Pancreatic Adenocarcinoma | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT03715205",
+              "url": "https://clinicaltrials.gov/study/NCT03715205",
+              "excerpt": "Study to Evaluate the Safety of Pembrolizumab in Participants With Unresectable or Metastatic Melanoma or Non-small Cell Lung Cancer in India (MK-3475-593/KEYNOTE-593) | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT07633613",
+              "url": "https://clinicaltrials.gov/study/NCT07633613",
+              "excerpt": "Pharmacokinetic Study of Pembrolizumab and Its Impact on Immunity and the Tumor Microenvironment, Which May Explain the Efficacy of Post-immunotherapy Chemotherapy. | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT06550453",
+              "url": "https://clinicaltrials.gov/study/NCT06550453",
+              "excerpt": "Safety and Efficacy of Pembrolizumab in Combination with Bevacizumab + CapeOX in the Neoadjuvant Treatment of RAS-mutated, BRAF Wild-type, Microsatellite-stabilized, Locally Advanced Colorectal Cancer | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT06903312",
+              "url": "https://clinicaltrials.gov/study/NCT06903312",
+              "excerpt": "Primary Tumor Ablation and Outcome in Metastatic Renal Cell Carcinoma Treated With Immunotherapy Combinations. | Phase: PHASE4"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "PHASE2",
+            "trial_count": 584,
+            "entity": "Nivolumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT03446040",
+              "url": "https://clinicaltrials.gov/study/NCT03446040",
+              "excerpt": "An Investigational Immunotherapy Study of BMS-986258 Alone and in Combination With Nivolumab in Participants With Solid Cancers That Are Advanced or Have Spread | Phase: PHASE1, PHASE2"
+            },
+            {
+              "nct_id": "NCT04258150",
+              "url": "https://clinicaltrials.gov/study/NCT04258150",
+              "excerpt": "Ipilimumab, Nivolumab, Tocilizumab and Radiation in Pretreated Patients With Advanced Pancreatic Cancer | Phase: PHASE2"
+            },
+            {
+              "nct_id": "NCT05845450",
+              "url": "https://clinicaltrials.gov/study/NCT05845450",
+              "excerpt": "Pre-operative Targeted Treatments in Molecularly Selected Resectable Colorectal Cancer (UNICORN) | Phase: PHASE2"
+            },
+            {
+              "nct_id": "NCT04375527",
+              "url": "https://clinicaltrials.gov/study/NCT04375527",
+              "excerpt": "Binimetinib and Nivolumab for the Treatment of Locally Advanced Unresectable or Metastatic BRAF V600 Wildtype Melanoma | Phase: PHASE2"
+            },
+            {
+              "nct_id": "NCT04413123",
+              "url": "https://clinicaltrials.gov/study/NCT04413123",
+              "excerpt": "Cabozantinib In Combo With NIVO + IPI In Advanced NCCRCC | Phase: PHASE2"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "PHASE1",
+            "trial_count": 335,
+            "entity": "Nivolumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT03446040",
+              "url": "https://clinicaltrials.gov/study/NCT03446040",
+              "excerpt": "An Investigational Immunotherapy Study of BMS-986258 Alone and in Combination With Nivolumab in Participants With Solid Cancers That Are Advanced or Have Spread | Phase: PHASE1, PHASE2"
+            },
+            {
+              "nct_id": "NCT02659540",
+              "url": "https://clinicaltrials.gov/study/NCT02659540",
+              "excerpt": "Pilot Study of the Safety/Efficacy of Combination Checkpoint Blockade + External Beam Radiotherapy in Stage IV Melanoma | Phase: PHASE1"
+            },
+            {
+              "nct_id": "NCT03026166",
+              "url": "https://clinicaltrials.gov/study/NCT03026166",
+              "excerpt": "A Study of Rovalpituzumab Tesirine Administered in Combination With Nivolumab and With or Without Ipilimumab for Adults With Extensive-Stage Small Cell Lung Cancer | Phase: PHASE1, PHASE2"
+            },
+            {
+              "nct_id": "NCT04165330",
+              "url": "https://clinicaltrials.gov/study/NCT04165330",
+              "excerpt": "Evaluation of AL3818 in Combination With Nivolumab in Solid Tumors | Phase: PHASE1, PHASE2"
+            },
+            {
+              "nct_id": "NCT05266612",
+              "url": "https://clinicaltrials.gov/study/NCT05266612",
+              "excerpt": "Phase I Study VG2025 as a Single Agent and in Combination Therapy With Nivolumab in Subjects With Advanced Malignant Solid Tumors | Phase: PHASE1"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "PHASE3",
+            "trial_count": 103,
+            "entity": "Nivolumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT04410445",
+              "url": "https://clinicaltrials.gov/study/NCT04410445",
+              "excerpt": "Study to Compare Adjuvant Immunotherapy of Bempegaldesleukin Combined With Nivolumab Versus Nivolumab After Complete Resection of Melanoma in Patients at High Risk for Recurrence | Phase: PHASE3"
+            },
+            {
+              "nct_id": "NCT03349710",
+              "url": "https://clinicaltrials.gov/study/NCT03349710",
+              "excerpt": "Nivolumab or Nivolumab Plus Cisplatin, in Combination With Radiotherapy in Patients With Cisplatin-ineligible or Eligible Locally Advanced Squamous Cell Head and Neck Cancer | Phase: PHASE3"
+            },
+            {
+              "nct_id": "NCT02746796",
+              "url": "https://clinicaltrials.gov/study/NCT02746796",
+              "excerpt": "Study of ONO-4538 in Gastric Cancer | Phase: PHASE2, PHASE3"
+            },
+            {
+              "nct_id": "NCT02872116",
+              "url": "https://clinicaltrials.gov/study/NCT02872116",
+              "excerpt": "Efficacy Study of Nivolumab Plus Ipilimumab or Nivolumab Plus Chemotherapy Against Chemotherapy in Stomach Cancer or Stomach/Esophagus Junction Cancer | Phase: PHASE3"
+            },
+            {
+              "nct_id": "NCT03522246",
+              "url": "https://clinicaltrials.gov/study/NCT03522246",
+              "excerpt": "A Study in Ovarian Cancer Patients Evaluating Rucaparib and Nivolumab as Maintenance Treatment Following Response to Front-Line Platinum-Based Chemotherapy | Phase: PHASE3"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "NOT_APPLICABLE",
+            "trial_count": 103,
+            "entity": "Nivolumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06194695",
+              "url": "https://clinicaltrials.gov/study/NCT06194695",
+              "excerpt": "DEB-TACE, Lenvatinib and Anti-PD(L)1 Antibody as Conversion Therapy for Intrahepatic Cholangiocarcinoma"
+            },
+            {
+              "nct_id": "NCT05324436",
+              "url": "https://clinicaltrials.gov/study/NCT05324436",
+              "excerpt": "A Study of Yervoy and Opdivo Combination Therapy in Participants With Unresectable Advanced/Recurrent Malignant Pleural Mesothelioma (MPM)"
+            },
+            {
+              "nct_id": "NCT04115410",
+              "url": "https://clinicaltrials.gov/study/NCT04115410",
+              "excerpt": "PD-1 Immune Checkpoint Inhibitors and Immune-Related Adverse Events: a Cohort Study"
+            },
+            {
+              "nct_id": "NCT04975932",
+              "url": "https://clinicaltrials.gov/study/NCT04975932",
+              "excerpt": "Efficacy and Safety of TACE in Combination With ICIs for HCC: a Real-world Study"
+            },
+            {
+              "nct_id": "NCT06784778",
+              "url": "https://clinicaltrials.gov/study/NCT06784778",
+              "excerpt": "Observational Study of Patients With Advanced Melanoma (Skin Cancer) to Assess if IOpener\u00ae-Melanoma Test Can Predict Response to Immunotherapy."
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "NA",
+            "trial_count": 24,
+            "entity": "Nivolumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT05834413",
+              "url": "https://clinicaltrials.gov/study/NCT05834413",
+              "excerpt": "Clinical Study on the Prevention of Driver Gene Negative Ib-IIIb Lung Cancer Recurrence and Metastasis by Staged Chinese Herbal Medicine Combined With Chemotherapy and Immune Checkpoint Inhibitors | Phase: NA"
+            },
+            {
+              "nct_id": "NCT05753839",
+              "url": "https://clinicaltrials.gov/study/NCT05753839",
+              "excerpt": "The Role of Cytoreductive Nephrectomy in Metastatic Renal Cell Carcinoma in Immuno-oncology Era: SEVURO-CN Trial | Phase: NA"
+            },
+            {
+              "nct_id": "NCT03520634",
+              "url": "https://clinicaltrials.gov/study/NCT03520634",
+              "excerpt": "PD-L1 PET Imaging in Melanoma Patients | Phase: NA"
+            },
+            {
+              "nct_id": "NCT05547282",
+              "url": "https://clinicaltrials.gov/study/NCT05547282",
+              "excerpt": "Low-dose Radiotherapy Combined With Conventional Radiotherapy After Immunotherapy Failure | Phase: NA"
+            },
+            {
+              "nct_id": "NCT02833233",
+              "url": "https://clinicaltrials.gov/study/NCT02833233",
+              "excerpt": "A Study of Pre-Operative Treatment With Cryoablation and Immune Therapy in Early Stage Breast Cancer | Phase: NA"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "EARLY_PHASE1",
+            "trial_count": 17,
+            "entity": "Nivolumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT03162731",
+              "url": "https://clinicaltrials.gov/study/NCT03162731",
+              "excerpt": "Nivolumab, Ipilimumab, and Radiation Therapy in Treating Patients With Stage III-IVB Head and Neck Cancer | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT05482451",
+              "url": "https://clinicaltrials.gov/study/NCT05482451",
+              "excerpt": "Nivolumab and All-trans Retinoic Acid for Pancreatic Cancer | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT07210632",
+              "url": "https://clinicaltrials.gov/study/NCT07210632",
+              "excerpt": "Window Trial of Fluorescently Labeled Nivolumab-IRDye800 (Nivo800) in High Grade Glioma (HGG) | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT03224871",
+              "url": "https://clinicaltrials.gov/study/NCT03224871",
+              "excerpt": "UCDCC#269: A Pilot Study of Interlesional IL-2 and RT in Patients With NSCLC. | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT03526185",
+              "url": "https://clinicaltrials.gov/study/NCT03526185",
+              "excerpt": "A Pilot Study Using Short-Term Cultured Anti-Tumor Autologous Lymphocytes | Phase: EARLY_PHASE1"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "PHASE4",
+            "trial_count": 11,
+            "entity": "Nivolumab"
+          },
+          "citations": [
+            {
+              "nct_id": "NCT07028125",
+              "url": "https://clinicaltrials.gov/study/NCT07028125",
+              "excerpt": "Digital Monitoring of Self-reported Symptoms by Patients Treated With Cabozantinib Plus Nivolumab for Advanced Clear-cell Renal Carcinoma | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT04707547",
+              "url": "https://clinicaltrials.gov/study/NCT04707547",
+              "excerpt": "Immune Profile and Prognosis of Malignant Liver Tumors With Radiofrequency Ablation (RFA) Therapy | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT06903312",
+              "url": "https://clinicaltrials.gov/study/NCT06903312",
+              "excerpt": "Primary Tumor Ablation and Outcome in Metastatic Renal Cell Carcinoma Treated With Immunotherapy Combinations. | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT02869789",
+              "url": "https://clinicaltrials.gov/study/NCT02869789",
+              "excerpt": "An Investigational Immuno-therapy Study for Safety of Nivolumab in Combination With Ipilimumab to Treat Advanced Cancers | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT07459543",
+              "url": "https://clinicaltrials.gov/study/NCT07459543",
+              "excerpt": "A Study To Assess the Safety, and Tolerability of Nivolumab + Relatlimab Fixed-Dose Combination (FDC) In Untreated, Unresectable or Metastatic Melanoma Participants In India | Phase: PHASE4"
+            }
+          ]
+        }
+      ],
+      "network_data": null,
+      "notes": "Both drugs have 1000 trials each. Phase 2 dominates for both (Pembrolizumab 595, Nivolumab 584), followed by Phase 1 (379 vs 335) and Phase 3 (121 vs 103). Nivolumab has notably more 'Not Applicable' phase trials (103 vs 52). Other phases are similar in count.",
+      "query_interpretation": "User wants to compare the distribution of study phases for two drugs, Pembrolizumab and Nivolumab. Using comparison_entities with query_intr for each drug and grouping by phase. No date restriction or status filter specified."
+    },
+    "meta": {
+      "query": "Compare the phase distribution of trials for Pembrolizumab vs Nivolumab",
+      "filters": {},
+      "total_studies_analyzed": 2000,
+      "source": "clinicaltrials.gov",
+      "api_version": "v2",
+      "timestamp": "2026-07-31T00:45:49.015242+00:00"
+    }
+  }
+}

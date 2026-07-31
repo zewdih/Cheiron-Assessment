@@ -1,0 +1,523 @@
+{
+  "request": {
+    "query": "How has the number of trials for Pembrolizumab changed over time?",
+    "drug_name": "Pembrolizumab"
+  },
+  "response": {
+    "visualization": {
+      "type": "time_series",
+      "title": "Pembrolizumab Clinical Trials by Start Year (2013-2027)",
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "temporal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Number of Trials"
+        },
+        "color": null,
+        "size": null,
+        "nodes": null,
+        "edges": null
+      },
+      "data": [
+        {
+          "values": {
+            "year": 2013,
+            "trial_count": 10
+          },
+          "citations": [
+            {
+              "nct_id": "NCT01876511",
+              "url": "https://clinicaltrials.gov/study/NCT01876511",
+              "excerpt": "Study of MK-3475 in Patients With Microsatellite Unstable (MSI) Tumors (Cohorts A, B and C) | Phase: PHASE2 | Start: 2013-09"
+            },
+            {
+              "nct_id": "NCT01840579",
+              "url": "https://clinicaltrials.gov/study/NCT01840579",
+              "excerpt": "Study of Pembrolizumab (MK-3475) Monotherapy in Advanced Solid Tumors and Pembrolizumab Combination Therapy in Advanced Non-small Cell Lung Cancer/ Extensive-disease Small Cell Lung Cancer (MK-3475-011/KEYNOTE-011) | Phase: PHASE1 | Start: 2013-04-26"
+            },
+            {
+              "nct_id": "NCT02043665",
+              "url": "https://clinicaltrials.gov/study/NCT02043665",
+              "excerpt": "CVA21 and Pembrolizumab in NSCLC & Bladder Cancer (VLA-009 STORM/ KEYNOTE-200) | Phase: PHASE1 | Start: 2013-12-18"
+            },
+            {
+              "nct_id": "NCT01993719",
+              "url": "https://clinicaltrials.gov/study/NCT01993719",
+              "excerpt": "Immunotherapy Using Tumor Infiltrating Lymphocytes for Patients With Metastatic Melanoma | Phase: PHASE2 | Start: 2013-12-12"
+            },
+            {
+              "nct_id": "NCT01986426",
+              "url": "https://clinicaltrials.gov/study/NCT01986426",
+              "excerpt": "LTX-315 in Patients With Transdermally Accessible Tumours as Monotherapy or Combination With Ipilimumab or Pembrolizumab | Phase: PHASE1 | Start: 2013-11"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2014,
+            "trial_count": 14
+          },
+          "citations": [
+            {
+              "nct_id": "NCT02039674",
+              "url": "https://clinicaltrials.gov/study/NCT02039674",
+              "excerpt": "A Study of Pembrolizumab (MK-3475) in Combination With Chemotherapy or Immunotherapy in Participants With Non-small Cell Lung Cancer (MK-3475-021/KEYNOTE-021) | Phase: PHASE1, PHASE2 | Start: 2014-02-21"
+            },
+            {
+              "nct_id": "NCT02255097",
+              "url": "https://clinicaltrials.gov/study/NCT02255097",
+              "excerpt": "Study of MK-3475 (Pembrolizumab) in Recurrent or Metastatic Head and Neck Squamous Cell Carcinoma After Treatment With Platinum-based and Cetuximab Therapy (MK-3475-055/KEYNOTE-055) | Phase: PHASE2 | Start: 2014-10-24"
+            },
+            {
+              "nct_id": "NCT02289222",
+              "url": "https://clinicaltrials.gov/study/NCT02289222",
+              "excerpt": "1454GCC: Anti-PD-1 (MK-3475) and IMiD (Pomalidomide) Combination Immunotherapy in Relapsed/Refractory Multiple Myeloma | Phase: PHASE1, PHASE2 | Start: 2014-12-30"
+            },
+            {
+              "nct_id": "NCT02287428",
+              "url": "https://clinicaltrials.gov/study/NCT02287428",
+              "excerpt": "Personalized NeoAntigen Cancer Vaccine w RT Plus Pembrolizumab for Patients With Newly Diagnosed GBM | Phase: PHASE1 | Start: 2014-11"
+            },
+            {
+              "nct_id": "NCT02302339",
+              "url": "https://clinicaltrials.gov/study/NCT02302339",
+              "excerpt": "A Study of Glembatumumab Vedotin as Monotherapy or in Combination With Immunotherapies in Patients With Advanced Melanoma | Phase: PHASE2 | Start: 2014-11"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2015,
+            "trial_count": 51
+          },
+          "citations": [
+            {
+              "nct_id": "NCT02331368",
+              "url": "https://clinicaltrials.gov/study/NCT02331368",
+              "excerpt": "Phase 2 Multi-center Study of Anti-PD-1 During Lymphopenic State After HDT/ASCT for Multiple Myeloma | Phase: PHASE2 | Start: 2015-06"
+            },
+            {
+              "nct_id": "NCT02513472",
+              "url": "https://clinicaltrials.gov/study/NCT02513472",
+              "excerpt": "Study to Evaluate the Efficacy and Safety of Eribulin Mesylate in Combination With Pembrolizumab in Participants With Metastatic Triple-Negative Breast Cancer (mTNBC) | Phase: PHASE1, PHASE2 | Start: 2015-08-28"
+            },
+            {
+              "nct_id": "NCT02337491",
+              "url": "https://clinicaltrials.gov/study/NCT02337491",
+              "excerpt": "Pembrolizumab +/- Bevacizumab for Recurrent GBM | Phase: PHASE2 | Start: 2015-02-09"
+            },
+            {
+              "nct_id": "NCT02506153",
+              "url": "https://clinicaltrials.gov/study/NCT02506153",
+              "excerpt": "Physician/Patient Choice of Either High-Dose Recombinant Interferon Alfa-2B or Ipilimumab, Versus Pembrolizumab in Treating Patients With Stage III-IV High Risk Melanoma That Has Been Removed by Surgery | Phase: PHASE3 | Start: 2015-11-10"
+            },
+            {
+              "nct_id": "NCT02621021",
+              "url": "https://clinicaltrials.gov/study/NCT02621021",
+              "excerpt": "A Phase 2 Trial for Metastatic Melanoma Using Adoptive Cell Therapy With Tumor Infiltrating Lymphocytes Plus IL-2 Either Alone or Following the Administration of Pembrolizumab | Phase: PHASE2 | Start: 2015-12-04"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2016,
+            "trial_count": 75
+          },
+          "citations": [
+            {
+              "nct_id": "NCT02562625",
+              "url": "https://clinicaltrials.gov/study/NCT02562625",
+              "excerpt": "Trial of Pembrolizumab and Radiotherapy in Melanoma | Phase: PHASE2 | Start: 2016-08-11"
+            },
+            {
+              "nct_id": "NCT02779101",
+              "url": "https://clinicaltrials.gov/study/NCT02779101",
+              "excerpt": "Study on Pembrolizumab for Recurrent Primary Central Nervous System Lymphoma (PCNSL) | Phase: PHASE2 | Start: 2016-06"
+            },
+            {
+              "nct_id": "NCT02630823",
+              "url": "https://clinicaltrials.gov/study/NCT02630823",
+              "excerpt": "MK-3475 Immunotherapy in Endometrial Carcinoma | Phase: PHASE1 | Start: 2016-02-05"
+            },
+            {
+              "nct_id": "NCT02826486",
+              "url": "https://clinicaltrials.gov/study/NCT02826486",
+              "excerpt": "Study Assessing Safety and Efficacy of Combination of BL-8040 and Pembrolizumab in Metastatic Pancreatic Cancer Patients | Phase: PHASE2 | Start: 2016-09"
+            },
+            {
+              "nct_id": "NCT02880371",
+              "url": "https://clinicaltrials.gov/study/NCT02880371",
+              "excerpt": "A Study of ARRY-382 in Combination With Pembrolizumab for the Treatment of Patients With Advanced Solid Tumors | Phase: PHASE1, PHASE2 | Start: 2016-09-01"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2017,
+            "trial_count": 77
+          },
+          "citations": [
+            {
+              "nct_id": "NCT03274661",
+              "url": "https://clinicaltrials.gov/study/NCT03274661",
+              "excerpt": "Pembrolizumab Activity in Patients With Homologous Recombination Competent and Deficient Tumors | Phase: PHASE2 | Start: 2017-11-03"
+            },
+            {
+              "nct_id": "NCT02844075",
+              "url": "https://clinicaltrials.gov/study/NCT02844075",
+              "excerpt": "Preoperative Chemoradiotherapy and MK-3475 for Esophageal Squamous Cell Carcinoma (ACTS-29) | Phase: PHASE2 | Start: 2017-01"
+            },
+            {
+              "nct_id": "NCT03092453",
+              "url": "https://clinicaltrials.gov/study/NCT03092453",
+              "excerpt": "Dendritic Cell Vaccination in Patients With Advanced Melanoma | Phase: PHASE1 | Start: 2017-05-01"
+            },
+            {
+              "nct_id": "NCT03111732",
+              "url": "https://clinicaltrials.gov/study/NCT03111732",
+              "excerpt": "Pembrolizumab, a Monoclonal Antibody Against PD-1, in Combination With Capecitabine and Oxaliplatin (CAPOX) in People With Advanced Biliary Tract Carcinoma (BTC) | Phase: PHASE2 | Start: 2017-06-14"
+            },
+            {
+              "nct_id": "NCT03163992",
+              "url": "https://clinicaltrials.gov/study/NCT03163992",
+              "excerpt": "Pembrolizumab in Advanced Hepatocellular Carcinoma as Second-line Treatment After Failure of Sorafenib | Phase: PHASE2 | Start: 2017-12-26"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2018,
+            "trial_count": 84
+          },
+          "citations": [
+            {
+              "nct_id": "NCT03618550",
+              "url": "https://clinicaltrials.gov/study/NCT03618550",
+              "excerpt": "Phase II Study of Second- Line Pembrolizumab Plus GVD for Relapsed or Refractory Hodgkin Lymphoma | Phase: PHASE2 | Start: 2018-08-01"
+            },
+            {
+              "nct_id": "NCT03396926",
+              "url": "https://clinicaltrials.gov/study/NCT03396926",
+              "excerpt": "Pembrolizumab, Capecitabine, and Bevacizumab for Treating Colorectal Cancer | Phase: PHASE2 | Start: 2018-04-18"
+            },
+            {
+              "nct_id": "NCT03488667",
+              "url": "https://clinicaltrials.gov/study/NCT03488667",
+              "excerpt": "Perioperative mFOLFOX Plus Pembrolizumab in Gastroesophageal Junction (GEJ) and Stomach Adenocarcinoma | Phase: PHASE2 | Start: 2018-06-27"
+            },
+            {
+              "nct_id": "NCT03447314",
+              "url": "https://clinicaltrials.gov/study/NCT03447314",
+              "excerpt": "Study of a Combination of GSK1795091 and Immunotherapies in Subjects With Advanced Solid Tumors | Phase: PHASE1 | Start: 2018-03-26"
+            },
+            {
+              "nct_id": "NCT03559049",
+              "url": "https://clinicaltrials.gov/study/NCT03559049",
+              "excerpt": "Rucaparib and Pembrolizumab for Maintenance Therapy in Stage IV Non-Squamous Non-Small Cell Lung Cancer | Phase: PHASE1, PHASE2 | Start: 2018-12-24"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2019,
+            "trial_count": 85
+          },
+          "citations": [
+            {
+              "nct_id": "NCT04128423",
+              "url": "https://clinicaltrials.gov/study/NCT04128423",
+              "excerpt": "Study of AMV564 in Subjects With Advanced Solid Tumors | Phase: PHASE1 | Start: 2019-10-09"
+            },
+            {
+              "nct_id": "NCT03695510",
+              "url": "https://clinicaltrials.gov/study/NCT03695510",
+              "excerpt": "Afatinib and Pembrolizumab for Head and Neck Squamous Cell Carcinoma (ALPHA Study) | Phase: PHASE2 | Start: 2019-01-24"
+            },
+            {
+              "nct_id": "NCT03971474",
+              "url": "https://clinicaltrials.gov/study/NCT03971474",
+              "excerpt": "Ramucirumab and Pembrolizumab Versus Standard of Care in Treating Patients With Stage IV or Recurrent Non-small Cell Lung Cancer (A Lung-MAP Non-Match Treatment Trial) | Phase: PHASE2 | Start: 2019-05-28"
+            },
+            {
+              "nct_id": "NCT03848845",
+              "url": "https://clinicaltrials.gov/study/NCT03848845",
+              "excerpt": "Study Evaluating Safety, Tolerability and Clinical Activity of GSK2857916 in Combination With Pembrolizumab in Subjects With Relapsed/Refractory Multiple Myeloma (RRMM) | Phase: PHASE1, PHASE2 | Start: 2019-03-14"
+            },
+            {
+              "nct_id": "NCT03589339",
+              "url": "https://clinicaltrials.gov/study/NCT03589339",
+              "excerpt": "NBTXR3 Activated by Radiotherapy for Patients With Advanced Cancers Treated With An Anti-PD-1 Therapy | Phase: PHASE1 | Start: 2019-01-16"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2020,
+            "trial_count": 85
+          },
+          "citations": [
+            {
+              "nct_id": "NCT04061590",
+              "url": "https://clinicaltrials.gov/study/NCT04061590",
+              "excerpt": "Pembrolizumab With or Without Chemotherapy Before Surgery in Treating Patients With Stage I-IIIA Non-Small Cell Lung Cancer | Phase: PHASE2 | Start: 2020-05-29"
+            },
+            {
+              "nct_id": "NCT05523323",
+              "url": "https://clinicaltrials.gov/study/NCT05523323",
+              "excerpt": "A Study of Pembrolizumab (MK-3475) With or Without Lenvatinib (E7080/MK-7902) as First Line (1L) Intervention in a Programmed Cell Death-ligand 1 (PD-L1) Selected Population With Recurrent or Metastatic Head and Neck Squamous Cell Carcinoma (R/M HNSCC) (MK-7902-010/LEAP-010)-China Extension | Phase: PHASE3 | Start: 2020-10-30"
+            },
+            {
+              "nct_id": "NCT04227509",
+              "url": "https://clinicaltrials.gov/study/NCT04227509",
+              "excerpt": "Consolidation Pembrolizumab After Chemoradiotherapy in Locally Advanced Nasopharyngeal Carcinoma | Phase: PHASE2 | Start: 2020-06-04"
+            },
+            {
+              "nct_id": "NCT04317534",
+              "url": "https://clinicaltrials.gov/study/NCT04317534",
+              "excerpt": "Adjuvant Pembrolizumab vs Observation Following Curative Resection for Stage I Non-small Cell Lung Cancer (NSCLC) With Primary Tumors Between 1-4 cm | Phase: PHASE2 | Start: 2020-05-05"
+            },
+            {
+              "nct_id": "NCT04750083",
+              "url": "https://clinicaltrials.gov/study/NCT04750083",
+              "excerpt": "HX008 Plus Chemotherapy VS Pembrolizumab Plus Chemotherapy As the First-line Treatment in Participants With Advanced or Metastatic Nonsquamous Non-small Cell Lung Cancer | Phase: PHASE2, PHASE3 | Start: 2020-09-25"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2021,
+            "trial_count": 89
+          },
+          "citations": [
+            {
+              "nct_id": "NCT04830124",
+              "url": "https://clinicaltrials.gov/study/NCT04830124",
+              "excerpt": "Nemvaleukin Alfa Monotherapy and in Combination With Pembrolizumab in Patients With Advanced Cutaneous or Mucosal Melanoma - ARTISTRY-6 | Phase: PHASE2 | Start: 2021-09-27"
+            },
+            {
+              "nct_id": "NCT04914897",
+              "url": "https://clinicaltrials.gov/study/NCT04914897",
+              "excerpt": "A Study of SAR444245 Combined With Other Anticancer Therapies for the Treatment of Participants With Lung Cancer or Mesothelioma (Pegathor Lung 202) | Phase: PHASE2 | Start: 2021-09-23"
+            },
+            {
+              "nct_id": "NCT05055908",
+              "url": "https://clinicaltrials.gov/study/NCT05055908",
+              "excerpt": "Efficacy and Biomarker Development for Lung Cancer Treated With Immune Checkpoint Inhibitors | Phase: PHASE3 | Start: 2021-10-01"
+            },
+            {
+              "nct_id": "NCT05048017",
+              "url": "https://clinicaltrials.gov/study/NCT05048017",
+              "excerpt": "Regorafenib Combined With PD-1 Inhibitor Therapy for Second-line Treatment of Hepatocellular Carcinoma | Phase: PHASE2 | Start: 2021-10-01"
+            },
+            {
+              "nct_id": "NCT04601857",
+              "url": "https://clinicaltrials.gov/study/NCT04601857",
+              "excerpt": "Futibatinib and Pembrolizumab Combination in the Treatment of Advanced or Metastatic Urothelial Carcinoma | Phase: PHASE2 | Start: 2021-01-07"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2022,
+            "trial_count": 107
+          },
+          "citations": [
+            {
+              "nct_id": "NCT05429697",
+              "url": "https://clinicaltrials.gov/study/NCT05429697",
+              "excerpt": "Study of SMT-NK Inj. Plus Pembrolizumab vs Pembrolizumab Monotherapy in Patients With Advanced Biliary Tract Cancer | Phase: PHASE2, PHASE3 | Start: 2022-06-09"
+            },
+            {
+              "nct_id": "NCT06194695",
+              "url": "https://clinicaltrials.gov/study/NCT06194695",
+              "excerpt": "DEB-TACE, Lenvatinib and Anti-PD(L)1 Antibody as Conversion Therapy for Intrahepatic Cholangiocarcinoma | Start: 2022-02-01"
+            },
+            {
+              "nct_id": "NCT03240211",
+              "url": "https://clinicaltrials.gov/study/NCT03240211",
+              "excerpt": "Study of Pembrolizumab Combined With Decitabine and Pralatrexate in PTCL and CTCL | Phase: PHASE1 | Start: 2022-02-02"
+            },
+            {
+              "nct_id": "NCT05585320",
+              "url": "https://clinicaltrials.gov/study/NCT05585320",
+              "excerpt": "A Phase 1/2a Study of IMM-1-104 in Participants With Advanced or Metastatic Solid Tumors | Phase: PHASE1, PHASE2 | Start: 2022-10-31"
+            },
+            {
+              "nct_id": "NCT05268510",
+              "url": "https://clinicaltrials.gov/study/NCT05268510",
+              "excerpt": "Chemotherapy and Pembrolizumab, Followed by Pembrolizumab and Olaparib As Firstline Therapy in Her-2 Negative Gastric/GEJ Adenocarcinoma | Phase: PHASE2 | Start: 2022-09-15"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2023,
+            "trial_count": 102
+          },
+          "citations": [
+            {
+              "nct_id": "NCT05791097",
+              "url": "https://clinicaltrials.gov/study/NCT05791097",
+              "excerpt": "Study of Efficacy and Safety of Ociperlimab in Combination With Tislelizumab and Platinum-based Doublet Chemotherapy as First-line Treatment for Participants With Locally Advanced or Metastatic NSCLC. | Phase: PHASE3 | Start: 2023-07-28"
+            },
+            {
+              "nct_id": "NCT05784688",
+              "url": "https://clinicaltrials.gov/study/NCT05784688",
+              "excerpt": "Study of TU2218 in Combination With KEYTRUDA\u00ae(Pembrolizumab) in Patients With Advanced Solid Tumors | Phase: PHASE1, PHASE2 | Start: 2023-03-10"
+            },
+            {
+              "nct_id": "NCT05838768",
+              "url": "https://clinicaltrials.gov/study/NCT05838768",
+              "excerpt": "Study of HRO761 Alone or in Combination in Cancer Patients With Specific DNA Alterations Called Microsatellite Instability or Mismatch Repair Deficiency. | Phase: PHASE1 | Start: 2023-06-27"
+            },
+            {
+              "nct_id": "NCT06035744",
+              "url": "https://clinicaltrials.gov/study/NCT06035744",
+              "excerpt": "CLN-617 Alone and in Combination With Pembrolizumab in Patients With Advanced Solid Tumors | Phase: PHASE1 | Start: 2023-12-12"
+            },
+            {
+              "nct_id": "NCT05929235",
+              "url": "https://clinicaltrials.gov/study/NCT05929235",
+              "excerpt": "A Study of FX-909 in Patients With Advanced Solid Malignancies, Including Advanced Urothelial Carcinoma | Phase: PHASE1 | Start: 2023-08-24"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2024,
+            "trial_count": 81
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06447662",
+              "url": "https://clinicaltrials.gov/study/NCT06447662",
+              "excerpt": "A Study to Learn About the Study Medicine PF-07934040 When Given Alone or With Other Anti-cancer Therapies in People With Advanced Solid Tumors That Have a Genetic Mutation. | Phase: PHASE1 | Start: 2024-06-27"
+            },
+            {
+              "nct_id": "NCT06305767",
+              "url": "https://clinicaltrials.gov/study/NCT06305767",
+              "excerpt": "A Clinical Study of Intismeran Autogene (V940) Treatment and Pembrolizumab in People With Bladder Cancer (V940-005/INTerpath-005) | Phase: PHASE1, PHASE2 | Start: 2024-03-28"
+            },
+            {
+              "nct_id": "NCT06463665",
+              "url": "https://clinicaltrials.gov/study/NCT06463665",
+              "excerpt": "Efficacy & Safety of Olvimulogene Nanivacirepvec & Platinum-doublet + Physician's Choice of Immune Checkpoint Inhibitor Compared to Docetaxel in NSCL Cancer | Phase: PHASE2 | Start: 2024-09-26"
+            },
+            {
+              "nct_id": "NCT06293651",
+              "url": "https://clinicaltrials.gov/study/NCT06293651",
+              "excerpt": "Clinical Trial to Investigate Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of DA-4505 as a Single Agent and in Combination With Pembrolizumab in Adult Patients With Locally Advanced or Metastatic Solid Tumors | Phase: PHASE1, PHASE2 | Start: 2024-04-18"
+            },
+            {
+              "nct_id": "NCT06242834",
+              "url": "https://clinicaltrials.gov/study/NCT06242834",
+              "excerpt": "Pembrolizumab and Tazemetostat to Overcome Immune Tolerance Following ASCT or CAR T-cell Therapy in Patients With Aggressive B-Cell Non-Hodgkin's Lymphoma | Phase: PHASE2 | Start: 2024-09-30"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2025,
+            "trial_count": 67
+          },
+          "citations": [
+            {
+              "nct_id": "NCT07227168",
+              "url": "https://clinicaltrials.gov/study/NCT07227168",
+              "excerpt": "A Study of STRO-004 in Adults With Refractory/Recurrent Metastatic Cancer | Phase: PHASE1 | Start: 2025-11-07"
+            },
+            {
+              "nct_id": "NCT07118527",
+              "url": "https://clinicaltrials.gov/study/NCT07118527",
+              "excerpt": "A Phase III Study of SHR-A1811 in Combination With Chemotherapy and Adebrelimab in Previously Untreated Patients With Gastric or Gastroesophageal Junction Adenocarcinoma | Phase: PHASE3 | Start: 2025-08-18"
+            },
+            {
+              "nct_id": "NCT07087860",
+              "url": "https://clinicaltrials.gov/study/NCT07087860",
+              "excerpt": "Therapeutic Plasma Exchange With Enfortumab Vedotin and Pembrolizumab for Treatment of Bladder Cancers | Phase: PHASE2 | Start: 2025-08-01"
+            },
+            {
+              "nct_id": "NCT07130032",
+              "url": "https://clinicaltrials.gov/study/NCT07130032",
+              "excerpt": "Efficacy And Safety Of Anti-PD-1/PD-L1 Antibodies In Combination With Bevacizumab And Metronomic Cyclophosphamide In Patients With Non-Small Cell Lung Cancer And Cutaneous Melanoma Previously Treated With Immune Checkpoint Blockade | Phase: PHASE2 | Start: 2025-08-14"
+            },
+            {
+              "nct_id": "NCT07020052",
+              "url": "https://clinicaltrials.gov/study/NCT07020052",
+              "excerpt": "Phase II Exploratory Study of Sequential Triple Therapy (Temozolomide/Anlotinib/Bemarituzumab) in Combination With Concurrent Radiotherapy With Temozolomide and Anlotinib for the Maintenance Treatment of Diffuse Midline Gliomas in Children | Start: 2025-07-10"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2026,
+            "trial_count": 69
+          },
+          "citations": [
+            {
+              "nct_id": "NCT07217496",
+              "url": "https://clinicaltrials.gov/study/NCT07217496",
+              "excerpt": "N-803 in Combination With Pembrolizumab and Enfortumab Vedotin for Treatment of Urothelial Cancer | Phase: PHASE1 | Start: 2026-02-15"
+            },
+            {
+              "nct_id": "NCT07466927",
+              "url": "https://clinicaltrials.gov/study/NCT07466927",
+              "excerpt": "Study of Multi-mode Thermal Therapy Combined With Immunotherapy In Patients With HER2-negative Breast Cancer With Liver Metastases | Phase: PHASE2 | Start: 2026-03-15"
+            },
+            {
+              "nct_id": "NCT07501351",
+              "url": "https://clinicaltrials.gov/study/NCT07501351",
+              "excerpt": "Efficacy and Safety Comparison Between Intensified Therapy and Conversion Therapy For Advanced HCC After Failure of First-line | Phase: PHASE2 | Start: 2026-01-05"
+            },
+            {
+              "nct_id": "NCT05106127",
+              "url": "https://clinicaltrials.gov/study/NCT05106127",
+              "excerpt": "Safety Lead-In Study of a Repurposed Drug Added to the Combination of Len Plus Pem | Phase: PHASE2 | Start: 2026-08"
+            },
+            {
+              "nct_id": "NCT07381634",
+              "url": "https://clinicaltrials.gov/study/NCT07381634",
+              "excerpt": "The Safety and Efficacy of Ondansetron in Reducing Immune Checkpoint Inhibitor-Related Toxicities | Phase: PHASE2 | Start: 2026-03-20"
+            }
+          ]
+        },
+        {
+          "values": {
+            "year": 2027,
+            "trial_count": 2
+          },
+          "citations": [
+            {
+              "nct_id": "NCT04266730",
+              "url": "https://clinicaltrials.gov/study/NCT04266730",
+              "excerpt": "Trial of a Personalized and Adaptive Neoantigen Dose-Adjusted Vaccine Concurrently With Pembrolizumab | Phase: PHASE1 | Start: 2027-05-20"
+            },
+            {
+              "nct_id": "NCT07037004",
+              "url": "https://clinicaltrials.gov/study/NCT07037004",
+              "excerpt": "Adding a Live Biotherapeutic Product (CBM588) to Pembrolizumab for the Treatment of Renal Cell Cancer After Surgery | Phase: PHASE2 | Start: 2027-01-01"
+            }
+          ]
+        }
+      ],
+      "network_data": null,
+      "notes": "Trials started slowly with 10 in 2013, increasing steadily to a peak of 107 in 2022. After 2022, trial counts decline, with only 2 trials starting in 2027. Note that data for years beyond 2024 may be incomplete or projected.",
+      "query_interpretation": "User requests a time trend for Pembrolizumab trials. Using query_intr for the drug, grouping by year of start date to show how trial count changes over time."
+    },
+    "meta": {
+      "query": "How has the number of trials for Pembrolizumab changed over time?",
+      "filters": {
+        "drug_name": "Pembrolizumab"
+      },
+      "total_studies_analyzed": 1000,
+      "source": "clinicaltrials.gov",
+      "api_version": "v2",
+      "timestamp": "2026-07-31T00:45:21.983247+00:00"
+    }
+  }
+}

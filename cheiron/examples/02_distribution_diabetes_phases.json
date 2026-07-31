@@ -1,0 +1,274 @@
+{
+  "request": {
+    "query": "How are diabetes trials distributed across phases?",
+    "condition": "diabetes"
+  },
+  "response": {
+    "visualization": {
+      "type": "bar_chart",
+      "title": "Distribution of Diabetes Trials by Phase (1000 Total Studies)",
+      "encoding": {
+        "x": {
+          "field": "phase",
+          "type": "nominal",
+          "title": "Phase"
+        },
+        "y": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Number of Trials"
+        },
+        "color": null,
+        "size": null,
+        "nodes": null,
+        "edges": null
+      },
+      "data": [
+        {
+          "values": {
+            "phase": "NA",
+            "trial_count": 393
+          },
+          "citations": [
+            {
+              "nct_id": "NCT00205335",
+              "url": "https://clinicaltrials.gov/study/NCT00205335",
+              "excerpt": "Free Test Strips and Blood Glucose Control | Phase: NA"
+            },
+            {
+              "nct_id": "NCT07661368",
+              "url": "https://clinicaltrials.gov/study/NCT07661368",
+              "excerpt": "Cooking Health-Oriented Meals to Prevent Dementia and Diabetes | Phase: NA"
+            },
+            {
+              "nct_id": "NCT05893797",
+              "url": "https://clinicaltrials.gov/study/NCT05893797",
+              "excerpt": "A Study of LY8888AX in Participants Using a Connected Insulin Management Platform | Phase: NA"
+            },
+            {
+              "nct_id": "NCT04335513",
+              "url": "https://clinicaltrials.gov/study/NCT04335513",
+              "excerpt": "Trial of Early Initiation of CGM-Guided Insulin Therapy in Stage 2 T1D | Phase: NA"
+            },
+            {
+              "nct_id": "NCT07716059",
+              "url": "https://clinicaltrials.gov/study/NCT07716059",
+              "excerpt": "Legume Flour Particle Size and Metabolic Responses to Bread | Phase: NA"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "NOT_APPLICABLE",
+            "trial_count": 214
+          },
+          "citations": [
+            {
+              "nct_id": "NCT01151891",
+              "url": "https://clinicaltrials.gov/study/NCT01151891",
+              "excerpt": "Natural History of Pedal Puncture Wounds in Diabetics"
+            },
+            {
+              "nct_id": "NCT06752018",
+              "url": "https://clinicaltrials.gov/study/NCT06752018",
+              "excerpt": "Inflammation's Impact on Heart Disease and Diabetes"
+            },
+            {
+              "nct_id": "NCT05600179",
+              "url": "https://clinicaltrials.gov/study/NCT05600179",
+              "excerpt": "OCTA in Epivascular Glia After Dex Implant"
+            },
+            {
+              "nct_id": "NCT01593059",
+              "url": "https://clinicaltrials.gov/study/NCT01593059",
+              "excerpt": "BIOFLOW-III Romania Satellite Registry"
+            },
+            {
+              "nct_id": "NCT04369703",
+              "url": "https://clinicaltrials.gov/study/NCT04369703",
+              "excerpt": "Copeptin as a Biomarker for Central Diabetes Insipidus Development Following Pituitary Surgery"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "PHASE2",
+            "trial_count": 110
+          },
+          "citations": [
+            {
+              "nct_id": "NCT01593774",
+              "url": "https://clinicaltrials.gov/study/NCT01593774",
+              "excerpt": "Melatonin for Prevention of Metabolic Side Effects of Olanzapine | Phase: PHASE2"
+            },
+            {
+              "nct_id": "NCT02470403",
+              "url": "https://clinicaltrials.gov/study/NCT02470403",
+              "excerpt": "Effect of LIK066 on Body Weight in Patients With Elevated Body Mass Index | Phase: PHASE2"
+            },
+            {
+              "nct_id": "NCT02151461",
+              "url": "https://clinicaltrials.gov/study/NCT02151461",
+              "excerpt": "Dose Comparisons of Leucine-Metformin Combinations on Blood Glucose Levels In Type 2 Diabetic Patients | Phase: PHASE2"
+            },
+            {
+              "nct_id": "NCT03567408",
+              "url": "https://clinicaltrials.gov/study/NCT03567408",
+              "excerpt": "Clinical Study of Bivalirudin for Percutaneous Coronary Intervention (PCI) | Phase: PHASE2"
+            },
+            {
+              "nct_id": "NCT00064727",
+              "url": "https://clinicaltrials.gov/study/NCT00064727",
+              "excerpt": "Rosiglitazone to Treat Patients With Heart Failure and Glucose Intolerance or Type II Diabetes | Phase: PHASE2"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "PHASE4",
+            "trial_count": 107
+          },
+          "citations": [
+            {
+              "nct_id": "NCT02220920",
+              "url": "https://clinicaltrials.gov/study/NCT02220920",
+              "excerpt": "Efficacy and Safety Study of Canagliflozin (TA-7284) in Combination With Insulin in Patients With Type 2 Diabetes Mellitus | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT03774108",
+              "url": "https://clinicaltrials.gov/study/NCT03774108",
+              "excerpt": "Metformin and Systemic Inflammation in HIV | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT01848990",
+              "url": "https://clinicaltrials.gov/study/NCT01848990",
+              "excerpt": "CONSISTENT 1: Metabolic and Safety Outcomes of Hylenex Recombinant (Hyaluronidase Human Injection) Preadministered at CSII Infusion Site in Participants With Type 1 Diabetes Mellitus (T1DM) | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT01565096",
+              "url": "https://clinicaltrials.gov/study/NCT01565096",
+              "excerpt": "Effect of Adding Vildagliptin on Beta Cell Function and Cardiovascular Risk Markers in Patients With Moderate Metabolic Control During Metformin Monotherapy | Phase: PHASE4"
+            },
+            {
+              "nct_id": "NCT05614089",
+              "url": "https://clinicaltrials.gov/study/NCT05614089",
+              "excerpt": "Human Versus Analogue Insulin for Youth With Type 1 Diabetes in Low-Resource Settings | Phase: PHASE4"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "PHASE1",
+            "trial_count": 101
+          },
+          "citations": [
+            {
+              "nct_id": "NCT00071227",
+              "url": "https://clinicaltrials.gov/study/NCT00071227",
+              "excerpt": "Eye Injections of Triamcinolone Acetonide for Retinal Blood Vessel Disorders | Phase: PHASE1"
+            },
+            {
+              "nct_id": "NCT01486888",
+              "url": "https://clinicaltrials.gov/study/NCT01486888",
+              "excerpt": "Bioequivalence of Two Mixtard\u00ae 30 Formulations in Healthy Subjects | Phase: PHASE1"
+            },
+            {
+              "nct_id": "NCT01789788",
+              "url": "https://clinicaltrials.gov/study/NCT01789788",
+              "excerpt": "A Safety, Pharmacokinetics and Pharmacodynamics Study of RO6811135 in Patients With Type 2 Diabetes Mellitus | Phase: PHASE1"
+            },
+            {
+              "nct_id": "NCT02916589",
+              "url": "https://clinicaltrials.gov/study/NCT02916589",
+              "excerpt": "Nutrition, Oral Health and Type 2 Diabetes | Phase: PHASE1, PHASE2"
+            },
+            {
+              "nct_id": "NCT00419718",
+              "url": "https://clinicaltrials.gov/study/NCT00419718",
+              "excerpt": "Effect of Exercise on the Absorption of Inhaled Human Insulin in Subjects With Type 1 Diabetes | Phase: PHASE1"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "PHASE3",
+            "trial_count": 100
+          },
+          "citations": [
+            {
+              "nct_id": "NCT03627182",
+              "url": "https://clinicaltrials.gov/study/NCT03627182",
+              "excerpt": "Efficacy and Safety of CKD-501 Added to D150 Plus D745 25mg Therapy in Patients With Type 2 Diabetes | Phase: PHASE3"
+            },
+            {
+              "nct_id": "NCT00448903",
+              "url": "https://clinicaltrials.gov/study/NCT00448903",
+              "excerpt": "Clinical Trial to Evaluate the Efficacy and Safety of Sodium Bemiparin for Treatment of Diabetic Foot Ulcers | Phase: PHASE3"
+            },
+            {
+              "nct_id": "NCT00315718",
+              "url": "https://clinicaltrials.gov/study/NCT00315718",
+              "excerpt": "Long-Term Effects of Sucontral(TM) on Mild and Moderate Cases of Diabetes Mellitus (Type 2) | Phase: PHASE3"
+            },
+            {
+              "nct_id": "NCT01980524",
+              "url": "https://clinicaltrials.gov/study/NCT01980524",
+              "excerpt": "The Impact of Free Fatty Acid (FFA-) Suppression on Myocardial Lipids and Function in Patients With Type 2 Diabetes | Phase: PHASE2, PHASE3"
+            },
+            {
+              "nct_id": "NCT06715462",
+              "url": "https://clinicaltrials.gov/study/NCT06715462",
+              "excerpt": "Efficacy and Safety of the N0750 Compared to Monotherapies in the Treatment of Painful Diabetic Peripheral Neuropathy | Phase: PHASE3"
+            }
+          ]
+        },
+        {
+          "values": {
+            "phase": "EARLY_PHASE1",
+            "trial_count": 9
+          },
+          "citations": [
+            {
+              "nct_id": "NCT06681597",
+              "url": "https://clinicaltrials.gov/study/NCT06681597",
+              "excerpt": "Raspberry Ketone Intake Upregulates Circulating FGF21 and Induces Energy Expenditure in Humans | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT02691897",
+              "url": "https://clinicaltrials.gov/study/NCT02691897",
+              "excerpt": "Melatonin's Effects on Treatment Of Diabetes Mellitus | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT06487117",
+              "url": "https://clinicaltrials.gov/study/NCT06487117",
+              "excerpt": "The Efficacy and Safety Assessment of Huafu Shengji Ointment in Patients With Diabetic Foot of Qi Deficiency and Blood Stasis Syndrome | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT01843881",
+              "url": "https://clinicaltrials.gov/study/NCT01843881",
+              "excerpt": "The Contribution of Incretin Hormones to Post-prandial Glucose Metabolism After Roux-en-Y Gastric Bypass | Phase: EARLY_PHASE1"
+            },
+            {
+              "nct_id": "NCT04008121",
+              "url": "https://clinicaltrials.gov/study/NCT04008121",
+              "excerpt": "Feasibility and Safety of MB-102 in Ocular Angiography as Compared to Fluorescein Sodium | Phase: EARLY_PHASE1"
+            }
+          ]
+        }
+      ],
+      "network_data": null,
+      "notes": "393 trials lack phase designation (NA), and another 214 are marked not applicable. Among trials with defined phases, Phase 2 (110) is the largest group, followed closely by Phase 4 (107), Phase 1 (101), and Phase 3 (100). Early Phase 1 trials are the fewest with 9 studies.",
+      "query_interpretation": "User wants the phase distribution of trials for the condition 'diabetes'. This calls for a distribution query grouped by phase, using query_cond for the condition filter."
+    },
+    "meta": {
+      "query": "How are diabetes trials distributed across phases?",
+      "filters": {
+        "condition": "diabetes"
+      },
+      "total_studies_analyzed": 1000,
+      "source": "clinicaltrials.gov",
+      "api_version": "v2",
+      "timestamp": "2026-07-31T00:45:38.245843+00:00"
+    }
+  }
+}
